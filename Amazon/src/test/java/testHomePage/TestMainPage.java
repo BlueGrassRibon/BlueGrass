@@ -7,56 +7,163 @@ import org.testng.annotations.Test;
 import reporting.TestLogger;
 
 public class TestMainPage extends MainPage {
-
     MainPage mainPage;
+
     @BeforeMethod
-    public void initialize() {
-        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+    public void initElements() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         mainPage = PageFactory.initElements(driver, MainPage.class);
     }
     @Test
-    public void testLogo(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    public void testLogo() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         mainPage.checkLogo();
     }
     @Test
-    public void testFindADoctor(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mainPage.checkFindADoctor();
-    }
-    @Test
-    public void testCommunityLocations300Plus(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mainPage.checkCommunityLocations300Plus();
-    }
-    @Test
-    public void testCaptionOfSymbolOfMap() {
+    public void testviewSearchBox() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkCaptionOfSymbolOfMap();
+        mainPage.checkSearchBox();
     }
     @Test
-    public void testInsideMountSinaiBlog() {
+    public void testTodaysDeal() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkInsideMountSinaiBlog();
+        mainPage.checkTodaysDeal();
     }
     @Test
-    public void testBlogInLinkedIn() {
+    public void testYourAmazonDotCom() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkBlogInLinkedIn();
+        mainPage.checkYourAmazonDotCom();
     }
     @Test
-    public void testInternationalServices() {
+    public void testGiftCards() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkInternationalServices();
+        mainPage.checkGiftCards();
     }
     @Test
-    public void testFindADoctor3() {
+    public void testWholeFoods() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkFindADoctor3();
+        mainPage.checkWholeFoods();
     }
+    @Test
+    public void testOrders() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkOrders();
+    }
+    @Test
+    public void testEmailPhoneForMobileAccounts() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkEmailPhoneForMobileAccounts();
+    }
+   @Test
+   public void testNewyear() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkNewYear();
+    }
+
+
+//    @Test
+//    public void testSigninForTheBestExperience() {
+//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+//        }.getClass().getEnclosingMethod().getName()));
+//        mainPage.signinForTheBestExperience();
+ //   }
+
+//    @Test
+//    public void testTodaysDealsUnder$25() {
+//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+//        }.getClass().getEnclosingMethod().getName()));
+//        mainPage.checkTodaysDealsUnder$25();
+ //   }
+
+//    @Test
+//    public void testRecommendedItemsOtherCustomersOftenBuyAgain() {
+//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+//        }.getClass().getEnclosingMethod().getName()));
+//        mainPage.checkRecommendedItemsOtherCustomersOftenBuyAgain();
+//        }
+
+//    @Test
+//    public void testAffordableApparel() {
+//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+//        }.getClass().getEnclosingMethod().getName()));
+//        mainPage.checkAffordableApparel();
+//        }
+
+
+//    @Test
+//    public void testRelatedToItemsYou'veViewed() {
+//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+//        }.getClass().getEnclosingMethod().getName()));
+//        mainPage.checkRelatedToItemsYou'veViewed();
+//        }
+
+
+    @Test
+    public void testNewYearNewYouReinventYourself() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkNewYearNewYouReinventYourself();
+        }
+
+    @Test
+    public void testSeeMore() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSeeMore();
+        }
+
+    @Test
+    public void testShopNow() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkShopNow();
+        }
+
+    @Test
+    public void testAdFeedback() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAdFeedback();
+        }
+
+    @Test
+    public void testTrendsInLowPricedWatches() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkTrendsInLowPricedWatches();
+        }
+
+    @Test
+    public void testThisWeeksNewReleases() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkThisWeeksNewReleases();
+        }
+
+    @Test
+    public void testThisWeeksBargainItems() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkBargainItems();
+        }
+
+//    @Test
+//    public void testThisWeeksBargainItems() {
+//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+//        }.getClass().getEnclosingMethod().getName()));
+//        mainPage.checkThisWeeksBargainItems(();
+//        }
+
+
+
 }

@@ -49,9 +49,9 @@ public class BaseUtil {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                              String browserVersion, @Optional("http://www.mountsinai.org") String url)throws IOException {
+                              String browserVersion, @Optional("http://www.amazon.com") String url)throws IOException {
 
-        System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\chowd\\Desktop\\blue\\BlueGrass\\Generic\\browserDriver\\chromedriver.exe");
         //System.setProperty("webdriver.chrome.driver","/Users/mohammadsharkar/Desktop/kamal/TofaelMountSinaiFrameWork2018/Generic/browserDriver/chromedriver");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
@@ -80,9 +80,9 @@ public class BaseUtil {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver", "/Users/mohammadsharkar/Desktop/kamal/BlueGrass/Generic/browserDriver/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "../Generic/browserDriver/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\chowd\\Desktop\\blue\\BlueGrass\\Generic\\browserDriver\\chromedriver.exe");
             }
             driver = new ChromeDriver(options);
             driver.manage().deleteAllCookies();
