@@ -164,6 +164,62 @@ public class TestMainPage extends MainPage {
 //        mainPage.checkThisWeeksBargainItems(();
 //        }
 
+    @Test
+    public void testGetToKnowUs() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkGetToKnowUs();
+    }
+
+    @Test
+    public void testCareer() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkCareer();
+    }
+
+    @Test
+    public void testBlog() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkBlog();
+    }
+
+    @Test
+    public void testAboutAmazon() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAboutAmazon();
+    }
+    @Test
+    public void testPressCenter() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkPressCenter();
+    }
+    @Test
+    public void testInvestorRelations() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkInvestorRelations();
+    }
+
+    @Test
+    public void testAmazonDevices() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAmazonDevices();
+    }
+    @Test
+    public void testMakeMoneyWithUs() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkMakeMoneyWithUs();
+    }
+
+
+
+
 
 
 }

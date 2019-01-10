@@ -230,6 +230,74 @@ public class MainPage extends BaseUtil {
 //        seeMore.click();
 //        }
 
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[1]/div")
+    public static WebElement getToKnowUs;
+
+    public void checkGetToKnowUs() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        getToKnowUs.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[1]/ul/li[1]/a")
+    public static WebElement career;
+
+    public void checkCareer() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        career.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[1]/ul/li[2]/a")
+    public static WebElement blog;
+
+    public void checkBlog() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        blog.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[1]/ul/li[3]/a")
+    public static WebElement aboutAmazon;
+
+    public void checkAboutAmazon() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        aboutAmazon.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[1]/ul/li[4]/a")
+    public static WebElement pressCenter;
+
+    public void checkPressCenter() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        pressCenter.click();
+    }
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[1]/ul/li[5]/a")
+    public static WebElement investorRelations;
+
+    public void checkInvestorRelations() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        investorRelations.click();
+    }
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[1]/ul/li[6]/a")
+    public static WebElement amazonDevices;
+
+    public void checkAmazonDevices() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        amazonDevices.click();
+    }
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[3]/div")
+    public static WebElement makeMoneyWithUs;
+
+    public void checkMakeMoneyWithUs() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        makeMoneyWithUs.click();
+    }
 
 
 
