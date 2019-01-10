@@ -1,6 +1,7 @@
 package homePage;
 
 import base.BaseUtil;
+import javafx.scene.control.Alert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
@@ -29,7 +30,7 @@ public class MainPage extends BaseUtil {
     public static WebElement printPlusCopy;
     @FindBy(id = "navGroup9")
     public static WebElement services;
-    @FindBy(xpath = "//span[@class='hicons accnt_hicon']")
+    @FindBy(xpath = "//a[@class='accountLogin']//span[@class='more_info']")
     public static WebElement account;
     @FindBy(id = "headerIdeas")
     public static WebElement ideas;
@@ -41,15 +42,22 @@ public class MainPage extends BaseUtil {
     public static WebElement offer;
     @FindBy(className = "customerService")
     public static WebElement helpCenter;
-
-    @FindBy(className = "section")
+    @FindBy(xpath = "//a[text()='FAQs']")
     public static WebElement faqs;
 
+    @FindBy(xpath = "//a[text()='Check Order Status']")
+    public static WebElement checkOrderStatus;
     @FindBy(className = "w20")
     public static WebElement returnAnItem;
     //id, class, name, css, xpath, linked text, partial linked text, tag
     @FindBy(xpath = "//a[text()='Contact Us']")
     public static WebElement contactUs;
+
+    @FindBy(xpath = "//a[text()='Price Match Policy']")
+    public static WebElement priceMatchPolicy;
+
+
+
 
 
     public void checkOfficeSupplies() {
@@ -171,4 +179,20 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         contactUs.click();
     }
+    public void checkOrderStaus() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        checkOrderStatus.click();
+    }
+
+    public void checkPriceMatchPolicy() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        priceMatchPolicy.click();
+    }
+
+
+
+
+
 }

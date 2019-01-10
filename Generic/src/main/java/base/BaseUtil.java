@@ -48,9 +48,9 @@ public class BaseUtil {
 
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
-                      @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("60")
+                      @Optional("Windows") String os, @Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("60")
                               String browserVersion, @Optional("http://www.officedepot.com") String url)throws IOException {
-
+    //@Optional("OS X") String os for MAC
         System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
@@ -73,7 +73,7 @@ public class BaseUtil {
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver"); //this one used
             }else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "\\Users\\EMADUL HAQUE SHAMEEM\\Desktop\\blue\\BlueGrass\\Generic\\browserDriver\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "..\\Generic\\browserDriver\\chromedriver.exe");
             }
             driver = new ChromeDriver();
             builder = new Actions(driver);
