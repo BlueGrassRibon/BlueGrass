@@ -380,8 +380,77 @@ public class MainPage extends BaseUtil {
         selfPublishWithUs.click();
     }
 
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[5]/div")
+    public static WebElement amazonPaymentProducts;
 
+    public void checkAmazonPaymentProducts() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        amazonPaymentProducts.click();
+    }
 
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[5]/ul/li[1]/a")
+    public static WebElement amazonRewardsVisaSignatureCards;
+
+    public void checkAmazonRewardsVisaSignatureCards() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        amazonRewardsVisaSignatureCards.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[5]/ul/li[2]/a")
+    public static WebElement amazonDotComStoreCard;
+
+    public void checkAmazonDotComStoreCard() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        amazonDotComStoreCard.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[5]/ul/li[3]/a")
+    public static WebElement amazonBusinessCard;
+
+    public void checkAmazonBusinessCard() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        amazonBusinessCard.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[5]/ul/li[4]/a")
+    public static WebElement amazonDotComCorporateCreditLine;
+
+    public void checkAmazonDotComCorporateCreditLine() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        amazonDotComCorporateCreditLine.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[5]/ul/li[6]/a")
+    public static WebElement creditCardMarketplace;
+
+    public void checkCreditCardMarketplace() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        creditCardMarketplace.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[5]/ul/li[7]/a")
+    public static WebElement reloadYourBalance;
+
+    public void checkReloadYourBalance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        reloadYourBalance.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[5]/ul/li[8]/a")
+    public static WebElement amazonCurrencyConverter;
+
+    public void checkAmazonCurrencyConverter() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        amazonCurrencyConverter.click();
+    }
 
 
 

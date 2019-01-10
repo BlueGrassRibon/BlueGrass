@@ -280,6 +280,62 @@ public class TestMainPage extends MainPage {
         mainPage.checkSelfPublishWithUs();
     }
 
+    @Test
+    public void testAmazonPaymentProducts() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAmazonPaymentProducts();
+    }
+
+    @Test
+    public void testAmazonRewardsVisaSignatureCards() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAmazonRewardsVisaSignatureCards();
+    }
+
+    @Test
+    public void testAmazonDotComStoreCard() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAmazonDotComStoreCard();
+    }
+
+    @Test
+    public void testAmazonBusinessCard() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAmazonBusinessCard();
+    }
+
+    @Test
+    public void testAmazonDotComCorporateCreditLine() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAmazonDotComCorporateCreditLine();
+    }
+
+    @Test
+    public void testCreditCardMarketplace() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkCreditCardMarketplace();
+    }
+
+    @Test
+    public void testReloadYourBalance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkReloadYourBalance();
+    }
+
+    @Test
+    public void testAmazonCurrencyConverter() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAmazonCurrencyConverter();
+    }
+
 
 
 }
