@@ -6,8 +6,6 @@
       <change beforePath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazon/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/main/java/homePage/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,12 +74,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="650" />
+          <entry key="java" value="704" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="650" />
+          <entry key="JAVA" value="704" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -100,11 +98,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="452" column="5" selection-start-line="452" selection-start-column="5" selection-end-line="452" selection-end-column="5" />
+            <state relative-caret-position="288">
+              <caret line="514" column="32" lean-forward="true" selection-start-line="514" selection-start-column="32" selection-end-line="514" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="336" column="5" selection-start-line="336" selection-start-column="5" selection-end-line="336" selection-end-column="5" />
+            <state relative-caret-position="205">
+              <caret line="391" column="37" selection-start-line="391" selection-start-column="37" selection-end-line="391" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,8 +158,8 @@
         <option value="$PROJECT_DIR$/BednBath/src/test/resources/BedNBathTestRunner.xml" />
         <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
-        <option value="$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestMainPage.java" />
         <option value="$PROJECT_DIR$/Amazon/src/main/java/homePage/MainPage.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestMainPage.java" />
       </list>
     </option>
   </component>
@@ -186,7 +184,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="987" />
     <option name="y" value="40" />
     <option name="width" value="935" />
@@ -283,7 +281,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547105295713" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547108164965" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -314,8 +312,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMainPage.testAmazonCurrencyConverter">
-    <configuration name="TestMainPage.testAmazonCurrencyConverter" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestMainPage.testAmazonAssistant">
+    <configuration name="TestMainPage.testAmazonAssistant" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -325,7 +323,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testAmazonCurrencyConverter" />
+      <option name="METHOD_NAME" value="testAmazonAssistant" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -333,7 +331,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testAmazonDotComCorporateCreditLine" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testAmazonPrime" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -343,7 +341,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testAmazonDotComCorporateCreditLine" />
+      <option name="METHOD_NAME" value="testAmazonPrime" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -351,7 +349,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testCreditCardMarketplace" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testReturnsAndReplacements" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -361,7 +359,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testCreditCardMarketplace" />
+      <option name="METHOD_NAME" value="testReturnsAndReplacements" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -369,7 +367,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testReloadYourBalance" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testShippingRatesAndPolicies" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -379,7 +377,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testReloadYourBalance" />
+      <option name="METHOD_NAME" value="testShippingRatesAndPolicies" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -387,7 +385,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testShopWithPoints" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testYourOrders" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -397,7 +395,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testShopWithPoints" />
+      <option name="METHOD_NAME" value="testYourOrders" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -406,19 +404,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.TestMainPage.testAmazonDotComCorporateCreditLine" />
-      <item itemvalue="TestNG.TestMainPage.testShopWithPoints" />
-      <item itemvalue="TestNG.TestMainPage.testCreditCardMarketplace" />
-      <item itemvalue="TestNG.TestMainPage.testReloadYourBalance" />
-      <item itemvalue="TestNG.TestMainPage.testAmazonCurrencyConverter" />
+      <item itemvalue="TestNG.TestMainPage.testYourOrders" />
+      <item itemvalue="TestNG.TestMainPage.testShippingRatesAndPolicies" />
+      <item itemvalue="TestNG.TestMainPage.testAmazonPrime" />
+      <item itemvalue="TestNG.TestMainPage.testReturnsAndReplacements" />
+      <item itemvalue="TestNG.TestMainPage.testAmazonAssistant" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestMainPage.testAmazonCurrencyConverter" />
-        <item itemvalue="TestNG.TestMainPage.testReloadYourBalance" />
-        <item itemvalue="TestNG.TestMainPage.testCreditCardMarketplace" />
-        <item itemvalue="TestNG.TestMainPage.testShopWithPoints" />
-        <item itemvalue="TestNG.TestMainPage.testAmazonDotComCorporateCreditLine" />
+        <item itemvalue="TestNG.TestMainPage.testAmazonAssistant" />
+        <item itemvalue="TestNG.TestMainPage.testReturnsAndReplacements" />
+        <item itemvalue="TestNG.TestMainPage.testAmazonPrime" />
+        <item itemvalue="TestNG.TestMainPage.testShippingRatesAndPolicies" />
+        <item itemvalue="TestNG.TestMainPage.testYourOrders" />
       </list>
     </recent_temporary>
   </component>
@@ -436,27 +434,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testAdvertiseYourProducts - 2019.01.10 at 01h 36m 53s.xml">
-      <configuration name="TestMainPage.testAdvertiseYourProducts" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testSelfPublishWithUs - 2019.01.10 at 01h 41m 11s.xml">
-      <configuration name="TestMainPage.testSelfPublishWithUs" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testAmazonPaymentProducts - 2019.01.10 at 01h 49m 47s.xml">
-      <configuration name="TestMainPage.testAmazonPaymentProducts" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testAmazonRewardsVisaSignatureCards - 2019.01.10 at 02h 03m 50s.xml">
-      <configuration name="TestMainPage.testAmazonRewardsVisaSignatureCards" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testAmazonDotComStoreCard - 2019.01.10 at 02h 07m 55s.xml">
-      <configuration name="TestMainPage.testAmazonDotComStoreCard" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testAmazonBusinessCard - 2019.01.10 at 02h 11m 54s.xml">
-      <configuration name="TestMainPage.testAmazonBusinessCard" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testAmazonDotComCorporateCreditLine - 2019.01.10 at 02h 15m 52s.xml">
-      <configuration name="TestMainPage.testAmazonDotComCorporateCreditLine" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestMainPage_testShopWithPoints - 2019.01.10 at 02h 18m 59s.xml">
       <configuration name="TestMainPage.testShopWithPoints" configurationId="TestNG" />
     </history-entry>
@@ -465,6 +442,27 @@
     </history-entry>
     <history-entry file="TestMainPage_testReloadYourBalance - 2019.01.10 at 02h 25m 07s.xml">
       <configuration name="TestMainPage.testReloadYourBalance" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testAmazonCurrencyConverter - 2019.01.10 at 02h 28m 34s.xml">
+      <configuration name="TestMainPage.testAmazonCurrencyConverter" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testLetUsHelpYou - 2019.01.10 at 02h 49m 06s.xml">
+      <configuration name="TestMainPage.testLetUsHelpYou" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testYourAccount - 2019.01.10 at 02h 51m 53s.xml">
+      <configuration name="TestMainPage.testYourAccount" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testYourOrders - 2019.01.10 at 02h 54m 46s.xml">
+      <configuration name="TestMainPage.testYourOrders" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testShippingRatesAndPolicies - 2019.01.10 at 02h 58m 13s.xml">
+      <configuration name="TestMainPage.testShippingRatesAndPolicies" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testAmazonPrime - 2019.01.10 at 03h 02m 43s.xml">
+      <configuration name="TestMainPage.testAmazonPrime" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testReturnsAndReplacements - 2019.01.10 at 03h 05m 31s.xml">
+      <configuration name="TestMainPage.testReturnsAndReplacements" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -716,20 +714,20 @@
     <entry file="file://$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestMainPage.java">
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="336" column="5" selection-start-line="336" selection-start-column="5" selection-end-line="336" selection-end-column="5" />
+        <state relative-caret-position="288">
+          <caret line="514" column="32" lean-forward="true" selection-start-line="514" selection-start-column="32" selection-end-line="514" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/homePage/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="452" column="5" selection-start-line="452" selection-start-column="5" selection-end-line="452" selection-end-column="5" />
+        <state relative-caret-position="205">
+          <caret line="391" column="37" selection-start-line="391" selection-start-column="37" selection-end-line="391" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

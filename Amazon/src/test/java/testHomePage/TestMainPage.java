@@ -336,6 +336,62 @@ public class TestMainPage extends MainPage {
         mainPage.checkAmazonCurrencyConverter();
     }
 
+    @Test
+    public void testLetUsHelpYou() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkLetUsHelpYou();
+    }
+
+    @Test
+    public void testYourAccount() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkYourAccount();
+    }
+
+    @Test
+    public void testYourOrders() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkYourOrders();
+    }
+
+    @Test
+    public void testShippingRatesAndPolicies() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkShippingRatesAndPolicies();
+    }
+
+    @Test
+    public void testAmazonPrime() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAmazonPrime();
+    }
+
+    @Test
+    public void testReturnsAndReplacements() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkReturnsAndReplacements();
+    }
+
+//    @Test
+//    public void testManageYourContentAndDevices() {
+//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+//        }.getClass().getEnclosingMethod().getName()));
+//        mainPage.checkManageYourContentAndDevices();
+//    }
+
+//    @Test
+//    public void testAmazonAssistant() {
+//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+//        }.getClass().getEnclosingMethod().getName()));
+//        mainPage.checkAmazonAssistant();
+//    }
+
 
 
 }
