@@ -15,15 +15,10 @@ public class SearchDoctor extends BaseUtil {
 
     @FindBy(how = How.XPATH, using ="//a[@class='hidden-xs dropdown']//i[@class='fa fa-search']")
     public static WebElement searchKey;
-
     @FindBy(how = How.XPATH, using ="//div[@id='search-input-mega']//input[@name='q']")
     public static WebElement searchInput;
-
     @FindBy(how = How.XPATH, using ="//div[@class='dropdown-menu mega-dropdown-menu search']//button[@class='btn btn-large']")
     public static WebElement submitButton;
-
-
-
     public WebElement getSearchKey() {
         return searchKey;
     }
@@ -33,7 +28,6 @@ public class SearchDoctor extends BaseUtil {
     public WebElement getSubmitButton() {
         return submitButton;
     }
-
     public void ClickSearchKey(){
         getSearchKey().click();
     }
@@ -46,7 +40,6 @@ public class SearchDoctor extends BaseUtil {
     public void clearInput(){
         getSearchInput().clear();
     }
-
     public void searchDoctorsAndSubmitButton()throws IOException {
         List<String> list = getItemValue();
         for(int i=0; i<list.size(); i++) {

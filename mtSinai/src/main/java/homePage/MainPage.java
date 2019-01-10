@@ -199,10 +199,9 @@ public class MainPage extends BaseUtil {
     public static WebElement chooseAHospitalLocation ;
     @FindBy(xpath = "//div[@class='select urgent-care']") //test failed
     public static WebElement chooseAUrgentCareLocation ;
-
-
     @FindBy(xpath = "//div[@class='copywrite']") //test failed
     public static WebElement copyright ;
+
 
 
 
@@ -656,6 +655,4 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         copyright .click();
     }
-
-
 }
