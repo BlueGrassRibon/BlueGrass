@@ -217,8 +217,68 @@ public class TestMainPage extends MainPage {
         mainPage.checkMakeMoneyWithUs();
     }
 
+    @Test
+    public void testSellOnAmazon() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSellOnAmazon();
+    }
 
+    @Test
+    public void testSellUnderPrivateBrands() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSellUnderPrivateBrands();
+    }
 
+    @Test
+    public void testSellOnAmazonHandmade() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSellOnAmazonHandmade();
+    }
+
+    @Test
+    public void testSellYourServicesOnAmazon() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSellYourServicesOnAmazon();
+    }
+
+    @Test
+    public void testSellOnAmazonBusiness() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSellOnAmazonBusiness();
+    }
+
+    @Test
+    public void testSellYourAppsOnAmazon() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSellYourAppsOnAmazon();
+    }
+
+    @Test
+    public void testBecomeAnAffiliate() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkBecomeAnAffiliate();
+    }
+
+    @Test
+    public void testAdvertiseYourProducts() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAdvertiseYourProducts();
+    }
+
+    @Test
+    public void testSelfPublishWithUs() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSelfPublishWithUs();
+    }
 
 
 

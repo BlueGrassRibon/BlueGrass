@@ -299,6 +299,93 @@ public class MainPage extends BaseUtil {
         makeMoneyWithUs.click();
     }
 
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[3]/ul/li[1]/a")
+    public static WebElement sellOnAmazon;
+
+    public void checkSellOnAmazon() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        sellOnAmazon.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[3]/ul/li[2]/a")
+    public static WebElement sellUnderPrivateBrands;
+
+    public void checkSellUnderPrivateBrands() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        sellUnderPrivateBrands.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[3]/ul/li[3]/a")
+    public static WebElement sellOnAmazonHandmade;
+
+    public void checkSellOnAmazonHandmade() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        sellOnAmazonHandmade.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[3]/ul/li[4]/a")
+    public static WebElement sellYourServicesOnAmazon;
+
+    public void checkSellYourServicesOnAmazon() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        sellYourServicesOnAmazon.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[3]/ul/li[5]/a")
+    public static WebElement sellOnAmazonBusiness;
+
+    public void checkSellOnAmazonBusiness() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        sellOnAmazonBusiness.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[3]/ul/li[6]/a")
+    public static WebElement sellYourAppsOnAmazon;
+
+    public void checkSellYourAppsOnAmazon() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        sellYourAppsOnAmazon.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[3]/ul/li[7]/a")
+    public static WebElement becomeAnAffiliate;
+
+    public void checkBecomeAnAffiliate() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        becomeAnAffiliate.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[3]/ul/li[8]/a")
+    public static WebElement advertiseYourProducts;
+
+    public void checkAdvertiseYourProducts() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        advertiseYourProducts.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[3]/ul/li[9]/a")
+    public static WebElement selfPublishWithUs;
+
+    public void checkSelfPublishWithUs() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        selfPublishWithUs.click();
+    }
+
+
+
+
+
+
+
 
 
 
