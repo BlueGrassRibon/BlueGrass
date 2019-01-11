@@ -1,11 +1,11 @@
 package homePage;
 
-import base.BaseUtil;
+import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
 
-public class MainPage extends BaseUtil {
+public class MainPage extends CommonAPI {
     @FindBy(xpath = "//img[@alt='Mount Sinai']")
     public static WebElement logo;
     @FindBy(linkText = "Find a Doctor")

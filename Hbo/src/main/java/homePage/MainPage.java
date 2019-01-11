@@ -1,12 +1,12 @@
 package homePage;
 
-import base.BaseUtil;
+import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
 
-public class MainPage extends BaseUtil {
-    @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div/div[1]/span/a/svg")
+public class MainPage extends CommonAPI {
+    @FindBy(xpath = "//*[@class='render bandjson']")
     public static WebElement logo;
     @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div/div[2]/div/div/ul/li[1]/div/a")
     public static WebElement series;
@@ -18,7 +18,7 @@ public class MainPage extends BaseUtil {
     public static WebElement sports;
     @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div/div[2]/div/div/ul/li[5]/div/a")
     public static WebElement kids;
-    @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div/div[2]/div[2]/div[1]/input")
+    @FindBy(xpath = "//div[@class='bands/MainNavigation--searchIcon']")
     public static WebElement search;
     @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div/div[3]/ul/li[1]/div/a")
     public static WebElement freeEpisodes;
@@ -34,29 +34,29 @@ public class MainPage extends BaseUtil {
     public static WebElement seeFullSchedule;
     @FindBy(xpath = "/html/body/main/div[4]/div/div/div[1]/div[1]/div/h2")
     public static WebElement inHboNews;
-    @FindBy(xpath = "/html/body/main/div[5]/div/div/div[1]/div[1]/p[1]")
+    @FindBy(xpath = "//div[@class='modules/LargeImageTwoColumnCollection--name']")
     public static WebElement movieCollection;
-    @FindBy(xpath = "/html/body/main/div[7]/div/div/div[1]/div/a/div/div[2]/div/div[1]/div[1]")
+    @FindBy(xpath = "//div[@class='components/EditorialContentLabel--container components/EditorialContentLabel--blue']")
     public static WebElement staffPick;
     @FindBy(xpath = "//span[contains(text(),'Get It Today')]")
     public static WebElement getItToday;
     @FindBy(xpath = "/html/body/main/div[10]/div/div/footer/div[1]/div/div/h2")
     public static WebElement followHbo;
-    @FindBy(xpath = "/html/body/main/div[10]/div/div/footer/div[1]/div/div/ul/li[1]/a")
+    @FindBy(xpath = "//*[@class='components/SocialMediaIcon--facebook']")
     public static WebElement facebook;
-    @FindBy(xpath = "/html/body/main/div[15]/div/div/footer/div[1]/div/div/ul/li[3]/a/svg")
-    public static WebElement instragram;
+    @FindBy(xpath = "//a[@title='instagram']")
+    public static WebElement instagram;
     @FindBy(xpath = "//a[contains(text(),'About')]")
     public static WebElement about;
     @FindBy(xpath = "//a[contains(text(),'Ways to Get')]")
     public static WebElement waysToGet;
     @FindBy(xpath = "//a[contains(text(),'Help')]")
     public static WebElement help;
-    @FindBy(xpath = "/html[1]/body[1]/main[1]/div[10]/div[1]/div[1]/footer[1]/div[2]/div[1]/ul[1]/li[4]/a[1]")
+    @FindBy(xpath = "//a[contains(text(),'Shop')]")
     public static WebElement shop;
-    @FindBy(xpath = "/html/body/main/div[10]/div/div/footer/div[2]/div/ul[1]/li[5]/a")
+    @FindBy(xpath = "//a[contains(text(),'Careers')]")
     public static WebElement careers;
-    @FindBy(xpath = " /html/body/main/div[10]/div/div/footer/div[2]/div/ul[1]/li[6]/a ")
+    @FindBy(xpath = "//a[contains(text(),'HBO Inspires')]")
     public static WebElement hboInspires;
     @FindBy(xpath = " //a[contains(text(),'Privacy Policy')]")
     public static WebElement privacyPolicy;
@@ -66,7 +66,7 @@ public class MainPage extends BaseUtil {
     public static WebElement adcChoices;
     @FindBy(xpath = "//a[contains(text(),'Ad Choices')]")
     public static WebElement adChoices;
-    @FindBy(xpath = "//p[contains(text(),'© 2019 Home Box Office, Inc. All Rights Reserved.')]")
+    @FindBy(xpath = "//p[contains(text(),'All Rights Reserved.')]")
     public static WebElement copyright;
 
 
@@ -177,10 +177,10 @@ public class MainPage extends BaseUtil {
          }.getClass().getEnclosingMethod().getName()));
          facebook.click();
      }
-     public void checkInstragram () {
+     public void checkInstagram () {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        instragram.click();
+        instagram.click();
      }
     public void checkAbout() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {

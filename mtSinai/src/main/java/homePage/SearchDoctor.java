@@ -1,7 +1,6 @@
 package homePage;
 
-import base.BaseUtil;
-import org.openqa.selenium.By;
+import base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,7 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SearchDoctor extends BaseUtil {
+public class SearchDoctor extends CommonAPI {
 
 
     @FindBy(how = How.XPATH, using ="//a[@class='hidden-xs dropdown']//i[@class='fa fa-search']")

@@ -132,10 +132,10 @@ public class TestMainPage extends MainPage {
         mainPage.checkFacebook();
     }
     @Test
-    public void testInstragram() {
+    public void testInstagram() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkInstragram();
+        mainPage.checkInstagram();
     }
     @Test
     public void testAbout() {
@@ -195,6 +195,6 @@ public class TestMainPage extends MainPage {
     public void testCopyright() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkInstragram();
+        mainPage.checkCopyright();
     }
 }

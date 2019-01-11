@@ -35,7 +35,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class BaseUtil {
+public class CommonAPI {
     public static WebDriver driver = null;
     public static Actions builder = null; //hoover over
     public static WebDriverWait wait = null ;  //explicit wait shameem
@@ -49,7 +49,7 @@ public class BaseUtil {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("Windows") String os, @Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("60")
-                              String browserVersion, @Optional("http://www.hbo.com") String url)throws IOException {
+                              String browserVersion, @Optional("") String url)throws IOException {
         System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
