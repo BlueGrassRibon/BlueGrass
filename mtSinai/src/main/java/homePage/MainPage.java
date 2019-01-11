@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
 
+
 public class MainPage extends BaseUtil {
     @FindBy(xpath = "//img[@alt='Mount Sinai']")
     public static WebElement logo;

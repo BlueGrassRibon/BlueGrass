@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
 
 public class MainPage extends BaseUtil {
-
     @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div/div[1]/span/a/svg")
     public static WebElement logo;
     @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div/div[2]/div/div/ul/li[1]/div/a")
@@ -73,7 +72,11 @@ public class MainPage extends BaseUtil {
 
 
 
-
+//ok, commit everyday at least 3 times
+    //try to keep all the code similar way by copying in your
+//previous intellij frameowrk for security
+//thanks
+//still working on it
 
 
 

@@ -5,39 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a8a109a-fdc8-4532-93a5-b55da8e9a8c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/Amazon.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BednBath/BednBath.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BednBath/target/BednBath-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/BednBath/target/BednBath-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlueGrass.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/CitiBank.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/target/CitiBank-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/CitiBank-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/browserDriver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/browserDriver/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/Hbo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/Hbo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/Hbo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HnM/HnM.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HnM/target/HnM-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/HnM/target/HnM-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OfficeDepot/OfficeDepot.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OfficeDepot/target/OfficeDepot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/OfficeDepot/target/OfficeDepot-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OfficeDepot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/OfficeDepot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OfficeDepot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/OfficeDepot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$27.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mtSinai/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/src/main/java/homePage/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/src/main/java/homePage/SearchDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/src/main/java/homePage/SearchDoctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtSinai/target/mtSinai-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/mtSinai-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/Hbo/src/test/resources/HboTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -75,20 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="70" column="39" lean-forward="true" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-198">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="34">
+              <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,10 +122,10 @@
         <option value="$PROJECT_DIR$/BednBath/src/test/resources/BedNBathTestRunner.xml" />
         <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestMainPage.java" />
-        <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/MainPage.java" />
         <option value="$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java" />
         <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/SearchDoctor.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
+        <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/MainPage.java" />
         <option value="$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java" />
       </list>
     </option>
@@ -166,11 +156,10 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="70" />
-    <option name="y" value="54" />
-    <option name="width" value="1371" />
-    <option name="height" value="554" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
+    <option name="width" value="1545" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -201,7 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,25 +200,25 @@
             <path>
               <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
               <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
+              <item name="mtSinai" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
               <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
+              <item name="mtSinai" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
               <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
+              <item name="mtSinai" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
               <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
+              <item name="mtSinai" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -238,53 +226,22 @@
             <path>
               <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
               <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
+              <item name="mtSinai" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="homePage" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testHomePage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547090450106" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547143613023" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -429,9 +386,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testLogo - 2019.01.08 at 14h 04m 17s.xml">
-      <configuration name="TestMainPage.testLogo" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestMainPage_testLogo - 2019.01.08 at 14h 05m 46s.xml">
       <configuration name="TestMainPage.testLogo" configurationId="TestNG" />
     </history-entry>
@@ -459,12 +413,15 @@
     <history-entry file="C__Users_User_Desktop_blue_BlueGrass_Hbo_src_test_resources_HboTestRunner_xml - 2019.01.09 at 22h 21m 04s.xml">
       <configuration name="C:/Users/User/Desktop/blue/BlueGrass/Hbo/src/test/resources/HboTestRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="C__Users_User_Desktop_blue_BlueGrass_Hbo_src_test_resources_HboTestRunner_xml - 2019.01.10 at 12h 47m 38s.xml">
+      <configuration name="C:/Users/User/Desktop/blue/BlueGrass/Hbo/src/test/resources/HboTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="168" y="62" width="1113" height="620" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26477733" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3105413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -473,25 +430,25 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32971507" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32962963" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32962963" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.66851854" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32962963" />
-      <window_info anchor="right" id="Maven" weight="0.32955465" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24939272" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Mongo Explorer" order="6" weight="0.32955465" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.32955465" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24939272" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.33865815" />
+      <window_info anchor="right" id="Mongo Explorer" order="9" weight="0.32955465" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26558703" />
@@ -529,9 +486,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java</url>
-          <line>232</line>
+          <line>235</line>
           <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mtSinai/src/main/java/homePage/MainPage.java</url>
+          <line>189</line>
+          <properties />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -597,9 +560,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BlueGrass.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BlueGrass.iml" />
     <entry file="file://$PROJECT_DIR$/OfficeDepot/src/main/java/homePage/Search.java" />
     <entry file="file://$PROJECT_DIR$/OfficeDepot/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -636,9 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BednBath/src/main/java/homePage/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/CitiBank/src/test/resources/CitiBankTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -660,13 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -738,29 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mtSinai/src/main/java/homePage/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="51" column="78" selection-start-line="51" selection-start-column="78" selection-end-line="51" selection-end-column="78" />
-          <folding>
-            <element signature="e#6101#6102#0" expanded="true" />
-            <element signature="e#6153#6154#0" expanded="true" />
-            <element signature="e#8370#8371#0" expanded="true" />
-            <element signature="e#8400#8401#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-198">
@@ -771,17 +699,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BednBath/src/main/java/homePage/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2414">
+          <caret line="177" column="5" lean-forward="true" selection-start-line="177" selection-start-column="5" selection-end-line="177" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Hbo/src/test/resources/HboTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mtSinai/src/main/java/homePage/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="70" column="39" lean-forward="true" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
+        <state relative-caret-position="34">
+          <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
