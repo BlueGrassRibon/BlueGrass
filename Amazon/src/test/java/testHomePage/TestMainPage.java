@@ -433,5 +433,47 @@ public class TestMainPage extends MainPage {
         mainPage.checkAmazonAdvertising();
     }
 
+    @Test
+    public void testAmazonFresh() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAmazonFresh();
+    }
+
+    @Test
+    public void testAudible() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAudible();
+    }
+
+    @Test
+    public void testFabric() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkFabric();
+    }
+
+    @Test
+    public void testAmazonPhotos() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAmazonPhotos();
+    }
+
+    @Test
+    public void testZappos() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkZappos();
+    }
+
+    @Test
+    public void testZappos() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkZappos();
+    }
+
 
 }

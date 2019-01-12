@@ -578,6 +578,59 @@ public class MainPage extends BaseUtil {
         amazonAdvertising.click();
     }
 
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[3]/td[3]/a")
+    public static WebElement amazonFresh;
+
+    public void checkAmazonFresh() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        amazonFresh.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[5]/td[3]/a")
+    public static WebElement audible;
+
+    public void checkAudible() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        audible.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[7]/td[3]/a")
+    public static WebElement fabric;
+
+    public void checkFabric() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        fabric.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[9]/td[3]/a")
+    public static WebElement amazonPhotos;
+
+    public void checkAmazonPhotos() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        amazonPhotos.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[11]/td[3]/a")
+    public static WebElement zappos;
+
+    public void checkZappos() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        zappos.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[11]/td[3]/a")
+    public static WebElement zappos;
+
+    public void checkZappos() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        zappos.click();
+    }
 
 
 

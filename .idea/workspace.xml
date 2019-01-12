@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a8a109a-fdc8-4532-93a5-b55da8e9a8c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazon/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/main/java/homePage/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
@@ -76,12 +75,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="769" />
+          <entry key="java" value="792" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="769" />
+          <entry key="JAVA" value="792" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -100,11 +99,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="571" column="76" selection-start-line="571" selection-start-column="76" selection-end-line="571" selection-end-column="76" />
+            <state relative-caret-position="237">
+              <caret line="619" column="21" selection-start-line="619" selection-start-column="21" selection-end-line="619" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="433" column="5" selection-start-line="433" selection-start-column="5" selection-end-line="433" selection-end-column="5" />
+            <state relative-caret-position="288">
+              <caret line="467" column="28" selection-start-line="467" selection-start-column="28" selection-end-line="467" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,8 +159,8 @@
         <option value="$PROJECT_DIR$/BednBath/src/test/resources/BedNBathTestRunner.xml" />
         <option value="$PROJECT_DIR$/Amazon/src/test/resources/AmazonTestRunner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
-        <option value="$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestMainPage.java" />
         <option value="$PROJECT_DIR$/Amazon/src/main/java/homePage/MainPage.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestMainPage.java" />
       </list>
     </option>
   </component>
@@ -283,7 +282,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547258563117" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547265564332" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -314,8 +313,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMainPage.testAmazonAdvertising">
-    <configuration name="TestMainPage.testAmazonAdvertising" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestMainPage.testZappos">
+    <configuration name="TestMainPage.testAmazonFresh" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -325,7 +324,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testAmazonAdvertising" />
+      <option name="METHOD_NAME" value="testAmazonFresh" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -333,7 +332,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testAmazonBusiness" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testAmazonPhotos" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -343,7 +342,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testAmazonBusiness" />
+      <option name="METHOD_NAME" value="testAmazonPhotos" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -351,7 +350,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testAmazonWebServices" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testAudible" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -361,7 +360,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testAmazonWebServices" />
+      <option name="METHOD_NAME" value="testAudible" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -369,7 +368,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testEastDane" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testFabric" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -379,7 +378,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testEastDane" />
+      <option name="METHOD_NAME" value="testFabric" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -387,7 +386,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testPrimeNow" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testZappos" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -397,7 +396,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testPrimeNow" />
+      <option name="METHOD_NAME" value="testZappos" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -406,19 +405,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.TestMainPage.testAmazonBusiness" />
-      <item itemvalue="TestNG.TestMainPage.testAmazonWebServices" />
-      <item itemvalue="TestNG.TestMainPage.testEastDane" />
-      <item itemvalue="TestNG.TestMainPage.testPrimeNow" />
-      <item itemvalue="TestNG.TestMainPage.testAmazonAdvertising" />
+      <item itemvalue="TestNG.TestMainPage.testAmazonFresh" />
+      <item itemvalue="TestNG.TestMainPage.testAudible" />
+      <item itemvalue="TestNG.TestMainPage.testFabric" />
+      <item itemvalue="TestNG.TestMainPage.testAmazonPhotos" />
+      <item itemvalue="TestNG.TestMainPage.testZappos" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestMainPage.testAmazonAdvertising" />
-        <item itemvalue="TestNG.TestMainPage.testPrimeNow" />
-        <item itemvalue="TestNG.TestMainPage.testEastDane" />
-        <item itemvalue="TestNG.TestMainPage.testAmazonWebServices" />
-        <item itemvalue="TestNG.TestMainPage.testAmazonBusiness" />
+        <item itemvalue="TestNG.TestMainPage.testZappos" />
+        <item itemvalue="TestNG.TestMainPage.testAmazonPhotos" />
+        <item itemvalue="TestNG.TestMainPage.testFabric" />
+        <item itemvalue="TestNG.TestMainPage.testAudible" />
+        <item itemvalue="TestNG.TestMainPage.testAmazonFresh" />
       </list>
     </recent_temporary>
   </component>
@@ -436,21 +435,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testReturnsAndReplacements - 2019.01.10 at 03h 05m 31s.xml">
-      <configuration name="TestMainPage.testReturnsAndReplacements" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testReturnsAndReplacements - 2019.01.11 at 19h 56m 20s.xml">
-      <configuration name="TestMainPage.testReturnsAndReplacements" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testManageYourContentAndDevices - 2019.01.11 at 19h 57m 39s.xml">
-      <configuration name="TestMainPage.testManageYourContentAndDevices" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testAmazonAssistant - 2019.01.11 at 19h 59m 00s.xml">
-      <configuration name="TestMainPage.testAmazonAssistant" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testAmazonMusic - 2019.01.11 at 19h 59m 28s.xml">
-      <configuration name="TestMainPage.testAmazonMusic" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestMainPage_testAmazonMusic - 2019.01.11 at 19h 59m 56s.xml">
       <configuration name="TestMainPage.testAmazonMusic" configurationId="TestNG" />
     </history-entry>
@@ -465,6 +449,21 @@
     </history-entry>
     <history-entry file="TestMainPage_testPrimeNow - 2019.01.11 at 20h 59m 30s.xml">
       <configuration name="TestMainPage.testPrimeNow" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testAmazonAdvertising - 2019.01.11 at 21h 03m 02s.xml">
+      <configuration name="TestMainPage.testAmazonAdvertising" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testAmazonFresh - 2019.01.11 at 22h 40m 27s.xml">
+      <configuration name="TestMainPage.testAmazonFresh" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testAudible - 2019.01.11 at 22h 44m 06s.xml">
+      <configuration name="TestMainPage.testAudible" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testFabric - 2019.01.11 at 22h 49m 22s.xml">
+      <configuration name="TestMainPage.testFabric" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testAmazonPhotos - 2019.01.11 at 22h 54m 57s.xml">
+      <configuration name="TestMainPage.testAmazonPhotos" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -716,20 +715,20 @@
     <entry file="file://$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestMainPage.java">
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="433" column="5" selection-start-line="433" selection-start-column="5" selection-end-line="433" selection-end-column="5" />
+        <state relative-caret-position="237">
+          <caret line="619" column="21" selection-start-line="619" selection-start-column="21" selection-end-line="619" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/homePage/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="571" column="76" selection-start-line="571" selection-start-column="76" selection-end-line="571" selection-end-column="76" />
+        <state relative-caret-position="288">
+          <caret line="467" column="28" selection-start-line="467" selection-start-column="28" selection-end-line="467" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
