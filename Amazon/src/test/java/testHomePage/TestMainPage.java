@@ -64,19 +64,18 @@ public class TestMainPage extends MainPage {
         mainPage.checkEmailPhoneForMobileAccounts();
     }
    @Test
-   public void testNewyear() {
+   public void testNewYear() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkNewYear();
     }
 
-
 //    @Test
-//    public void testSigninForTheBestExperience() {
+//    public void testSignInForTheBestExperience() {
 //        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
 //        }.getClass().getEnclosingMethod().getName()));
-//        mainPage.signinForTheBestExperience();
- //   }
+//        mainPage.signInForTheBestExperience();
+//    }
 
 //    @Test
 //    public void testTodaysDealsUnder$25() {
@@ -378,20 +377,61 @@ public class TestMainPage extends MainPage {
         mainPage.checkReturnsAndReplacements();
     }
 
-//    @Test
-//    public void testManageYourContentAndDevices() {
-//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()));
-//        mainPage.checkManageYourContentAndDevices();
-//    }
+    @Test
+    public void testManageYourContentAndDevices() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkManageYourContentAndDevices();
+    }
 
-//    @Test
-//    public void testAmazonAssistant() {
-//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()));
-//        mainPage.checkAmazonAssistant();
-//    }
+    @Test
+    public void testAmazonAssistant() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAmazonAssistant();
+    }
 
+    @Test
+    public void testAmazonMusic() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAmazonMusic();
+    }
+
+    @Test
+    public void testAmazonBusiness() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAmazonBusiness();
+    }
+
+    @Test
+    public void testAmazonWebServices() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAmazonWebServices();
+    }
+
+    @Test
+    public void testEastDane() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkEastDane();
+    }
+
+    @Test
+    public void testPrimeNow() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkPrimeNow();
+    }
+
+    @Test
+    public void testAmazonAdvertising() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAmazonAdvertising();
+    }
 
 
 }

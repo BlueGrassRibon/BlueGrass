@@ -91,13 +91,13 @@ public class MainPage extends BaseUtil {
     }
 
 //    @FindBy(xpath = "//*[@id=\"Nm8rplUpJniZBPxKXJgpQQ\"]/div[1]/h2")
-//    public static WebElement signinForTheBestExperience;
+//    public static WebElement signInForTheBestExperience;
 //
-//    public void checkSigninForTheBestExperience() {
+//    public void checkSignInForTheBestExperience() {
 //        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
 //        }.getClass().getEnclosingMethod().getName()));
-//        signinForTheBestExperience.click();
-   // }
+//        signInForTheBestExperience.click();
+//    }
 
 //    @FindBy(xpath = "//*[@id=\"deals-shoveler-ns_7801NE5P88ZTP69YGMRC_4633_\"]/div[1]/h2/span")
 //    public static WebElement todaysDealsUnder$25;
@@ -134,8 +134,7 @@ public class MainPage extends BaseUtil {
 //    public void checkRelatedToItemsYou'veViewed() {
 //        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
 //        }.getClass().getEnclosingMethod().getName()));
-//        relatedToItemsYou'veViewed.click();
-//    }
+//        relatedToItemsYou'veViewed
 
 
     @FindBy(xpath = "//*[@id=\"hY5QGRF5ZHWKLIhtLTPMsw\"]/a/img")
@@ -497,30 +496,87 @@ public class MainPage extends BaseUtil {
         amazonPrime.click();
     }
 
-//    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[7]/ul/li[6]/a")
-//    public static WebElement manageYourContentAndDevices;
-//
-//    public void checkManageYourContentAndDevices() {
-//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()));
-//        manageYourContentAndDevices.click();
-//    }
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[7]/ul/li[5]/a")
+    public static WebElement returnsAndReplacements;
 
-//    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[7]/ul/li[7]/a")
-//    public static WebElement amazonAssistant;
-//
-//    public void checkAmazonAssistant() {
-//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()));
-//        amazonAssistant.click();
-//    }
+    public void checkReturnsAndReplacements() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        returnsAndReplacements.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[7]/ul/li[6]/a")
+    public static WebElement manageYourContentAndDevices;
+
+    public void checkManageYourContentAndDevices() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        manageYourContentAndDevices.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[7]/ul/li[7]/a")
+    public static WebElement amazonAssistant;
+
+    public void checkAmazonAssistant() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        amazonAssistant.click();
+    }
 
 
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[1]/td[1]/a")
+    public static WebElement amazonMusic;
 
+    public void checkAmazonMusic() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        amazonMusic.click();
+    }
 
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[3]/td[1]/a")
+    public static WebElement amazonBusiness;
 
+    public void checkAmazonBusiness() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        amazonBusiness.click();
+    }
 
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[5]/td[1]/a")
+    public static WebElement amazonWebServices;
 
+    public void checkAmazonWebServices() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        amazonWebServices.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[7]/td[1]/a")
+    public static WebElement eastDane;
+
+    public void checkEastDane() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        eastDane.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[9]/td[1]/a")
+    public static WebElement primeNow;
+
+    public void checkPrimeNow() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        primeNow.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[1]/td[3]/a")
+    public static WebElement amazonAdvertising;
+
+    public void checkAmazonAdvertising() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        amazonAdvertising.click();
+    }
 
 
 
