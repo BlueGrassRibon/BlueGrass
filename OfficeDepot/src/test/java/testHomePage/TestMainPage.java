@@ -5,7 +5,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
-
 import static base.BaseUtil.convertToString;
 
 public class TestMainPage extends MainPage {
@@ -77,14 +76,12 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkServices();
     }
-
     @Test(enabled=false)
     public void testAccount() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkAccount();
     }
-
     @Test(enabled=false)
     public void testIdeas() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -103,14 +100,12 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkCart();
     }
-
     @Test(enabled=false)
     public void testOffer() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkOffer();
     }
-
     @Test(enabled=false)
     public void testFaqs() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -123,7 +118,6 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkReturnAnItem();
     }
-
     @Test(enabled=false)
     public void TestContactUs() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -136,35 +130,16 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkOrderStaus();
     }
-
-
-    @Test(enabled=true)
+    @Test(enabled=false)
     public void TestPriceMatchPolicy() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkPriceMatchPolicy();
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    @Test(enabled=true)
+    public void TestCorporateSustainability() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkCorporateSustaiNability();
+    }
 }
