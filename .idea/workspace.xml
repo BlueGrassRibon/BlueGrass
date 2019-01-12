@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="368b685a-c22c-440b-a87d-83e086cb9623" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$27.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$32.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$33.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$33.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$34.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$34.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$35.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$35.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$36.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$36.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$37.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$37.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$38.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$38.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$39.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$39.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$40.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$40.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$41.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$41.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$42.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$42.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$43.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$43.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$44.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$44.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$45.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$45.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$46.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$46.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$47.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$47.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$48.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$48.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$49.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$49.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$50.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$50.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$51.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$51.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$52.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$52.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$53.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$53.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$54.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$54.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$55.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$55.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$56.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$56.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$57.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$57.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$58.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$58.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$59.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$59.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$60.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$60.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$61.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$61.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$62.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$62.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$63.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$63.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$64.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$64.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$65.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$65.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$66.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$66.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$67.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$67.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$68.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$68.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$69.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$69.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$70.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$70.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$71.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$71.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$72.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage$72.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/homePage/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$27.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$32.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$33.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$33.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$34.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$34.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$35.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$35.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$36.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$36.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$37.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$37.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$38.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$38.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$39.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$39.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$40.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$40.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$41.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$41.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$42.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$42.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$43.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$43.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$44.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$44.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$45.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$45.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$46.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$46.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$47.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$47.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$48.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$48.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$49.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$49.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$50.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$50.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$51.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$51.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$52.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$52.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$53.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$53.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$54.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$54.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$55.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$55.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$56.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$56.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$57.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$57.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$58.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$58.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$59.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$59.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$60.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$60.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$61.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$61.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$62.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$62.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$63.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$63.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$64.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$64.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$65.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$65.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$66.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$66.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$67.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$67.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$68.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$68.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$69.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$69.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$70.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage$70.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/testHomePage/TestMainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BednBath/target/BednBath-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/BednBath/target/BednBath-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BednBath/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BednBath/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BednBath/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BednBath/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BednBath/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BednBath/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BednBath/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BednBath/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BednBath/target/test-classes/testHomePage/TestMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/BednBath/target/test-classes/testHomePage/TestMainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/CitiBank-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/CitiBank-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/browserDriver/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/browserDriver/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/Hbo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/Hbo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HnM/target/HnM-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/HnM/target/HnM-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HnM/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/HnM/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HnM/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/HnM/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HnM/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/HnM/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HnM/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/HnM/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HnM/target/test-classes/testHomePage/TestMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/HnM/target/test-classes/testHomePage/TestMainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OfficeDepot/target/OfficeDepot-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/OfficeDepot/target/OfficeDepot-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OfficeDepot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/OfficeDepot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OfficeDepot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/OfficeDepot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OfficeDepot/target/test-classes/testHomePage/TestMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/OfficeDepot/target/test-classes/testHomePage/TestMainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/target/mtSinai-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/mtSinai-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestMainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/mtSinai/target/test-classes/testHomePage/TestSearch.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/HnM/target/" />
+    <ignored path="$PROJECT_DIR$/OfficeDepot/target/" />
+    <ignored path="$PROJECT_DIR$/mtSinai/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/BednBath/target/" />
+    <ignored path="$PROJECT_DIR$/Amazon/target/" />
+    <ignored path="$PROJECT_DIR$/CitiBank/target/" />
+    <ignored path="$PROJECT_DIR$/Hbo/target/" />
+    <ignored path="$PROJECT_DIR$/Generic/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2450">
+              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestMainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/test/resources/CitiBankTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestMainPage.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="CitiBank" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="CitiBank" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="141" />
+    <option name="y" value="76" />
+    <option name="width" value="1294" />
+    <option name="height" value="829" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547322470482" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Generic/browserDriver" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.TestMainPage">
+    <configuration name="TestMainPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CitiBank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.testAtmBranch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CitiBank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <option name="METHOD_NAME" value="testAtmBranch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.testGooglePlayTab" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CitiBank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <option name="METHOD_NAME" value="testGooglePlayTab" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.testLogo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CitiBank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <option name="METHOD_NAME" value="testLogo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.testOpenAnAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CitiBank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <option name="METHOD_NAME" value="testOpenAnAccount" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestMainPage" />
+        <item itemvalue="TestNG.TestMainPage.testLogo" />
+        <item itemvalue="TestNG.TestMainPage.testOpenAnAccount" />
+        <item itemvalue="TestNG.TestMainPage.testAtmBranch" />
+        <item itemvalue="TestNG.TestMainPage.testGooglePlayTab" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="368b685a-c22c-440b-a87d-83e086cb9623" name="Default Changelist" comment="" />
+      <created>1547312207227</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547312207227</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestMainPage_testLogo - 2019.01.12 at 12h 38m 20s.xml">
+      <configuration name="TestMainPage.testLogo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage - 2019.01.12 at 14h 43m 50s.xml">
+      <configuration name="TestMainPage" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="141" y="76" width="1294" height="829" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32971507" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32971507" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39891452" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32971507" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32971507" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.3290735" />
+      <window_info anchor="right" id="Mongo Explorer" order="7" weight="0.3298722" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Run" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2450">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/resources/CitiBankTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
