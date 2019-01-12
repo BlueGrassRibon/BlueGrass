@@ -34,9 +34,7 @@ public class SearchDepartment extends BaseUtil {
     public static WebElement getSearchKey() {
         return searchKey;
     }
-    public static void setSearchKey(WebElement searchKey) {
-        SearchDepartment.searchKey = searchKey;
-    }
+    public static void setSearchKey(WebElement searchKey) { SearchDepartment.searchKey = searchKey; }
     public static WebElement getSearchField() {
         return searchField;
     }

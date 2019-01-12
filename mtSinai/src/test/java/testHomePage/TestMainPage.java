@@ -9,6 +9,7 @@ import reporting.TestLogger;
 public class TestMainPage extends MainPage {
 
     MainPage mainPage;
+
     @BeforeMethod
     public void initialize() {
         TestLogger.log(convertToString(new Object(){}.getClass().getSimpleName()) + " : " + convertToString(new Object() {
@@ -290,14 +291,12 @@ public class TestMainPage extends MainPage {
     }
     @Test
     public void testInsideMountSinaiBlog() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         mainPage.checkInsideMountSinaiBlog();
     }
     @Test
     public void testBlogInLinkedIn() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         mainPage.checkBlogInLinkedIn();
     }
     @Test
