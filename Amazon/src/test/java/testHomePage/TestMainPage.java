@@ -93,16 +93,6 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkAffordableApparel();
     }
-
-
-//   @Test
-//    public void testRelatedToItemsYou'veViewed() {
-//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()));
-//        mainPage.checkRelatedToItemsYou'veViewed();
-//        }
-
-
     @Test
     public void testNewYearNewYouReinventYourself() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -145,14 +135,6 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkBargainItems();
     }
-
-//  @Test
-//    public void testThisWeeksBargainItems() {
-//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()));
-//        mainPage.checkThisWeeksBargainItems(();
-//        }
-
     @Test
     public void testGetToKnowUs() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {

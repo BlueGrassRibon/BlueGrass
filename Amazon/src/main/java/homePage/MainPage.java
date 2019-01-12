@@ -169,15 +169,6 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         adFeedback.click();
     }
-//    @FindBy(xpath = "//*[@id=\"e5XGsKVbEm6qyDhOh62tGA\"]/a/img"]")
-//    public static WebElement getMovingWithFitnessTech;
-//
-//    public void checkGetMovingWithFitnessTech() {
-//        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-//        }.getClass().getEnclosingMethod().getName()));
-//        getMovingWithFitnessTech.click();
-//    }
-
     @FindBy(xpath = "//*[@id=\"GEIlGBZDQptQcsLjt37S_g\"]/a/img")
     public static WebElement trendsInLowPricedWatches;
 
