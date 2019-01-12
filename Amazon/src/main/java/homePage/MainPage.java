@@ -623,13 +623,49 @@ public class MainPage extends BaseUtil {
         zappos.click();
     }
 
-    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[11]/td[3]/a")
-    public static WebElement zappos;
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[1]/td[5]/a")
+    public static WebElement amazonDrive;
 
-    public void checkZappos() {
+    public void checkAmazonDrive() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        zappos.click();
+        amazonDrive.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[3]/td[5]/a")
+    public static WebElement amazonGlobal;
+
+    public void checkAmazonGlobal() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        amazonGlobal.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[5]/td[5]/a")
+    public static WebElement bookDepository;
+
+    public void checkBookDepository() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        bookDepository.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[7]/td[5]/a")
+    public static WebElement goodReads;
+
+    public void checkGoodReads() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        goodReads.click();
+    }
+
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[9]/td[5]/a")
+    public static WebElement primeVideoDirect;
+
+    public void checkPrimeVideoDirect() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        primeVideoDirect.click();
     }
 
 

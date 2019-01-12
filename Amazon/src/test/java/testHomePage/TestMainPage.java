@@ -469,11 +469,39 @@ public class TestMainPage extends MainPage {
     }
 
     @Test
-    public void testZappos() {
+    public void testAmazonDrive() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkZappos();
+        mainPage.checkAmazonDrive();
     }
+    @Test
+    public void testAmazonGlobal() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAmazonGlobal();
+    }
+
+    @Test
+    public void testBookDepository() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkBookDepository();
+    }
+
+    @Test
+    public void testGoodReads() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkGoodReads();
+    }
+    @Test
+    public void testPrimeVideoDirect() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkPrimeVideoDirect();
+    }
+
+
 
 
 }
