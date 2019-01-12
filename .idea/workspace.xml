@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java" description="@Test&#10;    public void testTerms(){&#10;        TestLog..." line="181" />
+    <bookmark url="file://$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java" description="@Test&#10;    public void testTerms(){&#10;        TestLog..." line="179" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a8a109a-fdc8-4532-93a5-b55da8e9a8c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/googleAPIs/GoogleSheetReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/googleAPIs/GoogleSheetReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hbo/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,8 +46,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="46" column="46" lean-forward="true" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+            <state relative-caret-position="232">
+              <caret line="255" column="22" selection-start-line="255" selection-start-column="22" selection-end-line="255" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1687">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,13 +68,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2279">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="249">
+              <caret line="229" column="21" selection-start-line="229" selection-start-column="21" selection-end-line="229" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2255#2674#1" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -100,9 +127,10 @@
         <option value="$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestMainPage.java" />
         <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/SearchDoctor.java" />
         <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/MainPage.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
         <option value="$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java" />
         <option value="$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
       </list>
     </option>
   </component>
@@ -132,11 +160,11 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="4" />
-    <option name="y" value="40" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2" />
+    <option name="y" value="28" />
     <option name="width" value="1494" />
-    <option name="height" value="989" />
+    <option name="height" value="990" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -167,6 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,43 +206,7 @@
             <path>
               <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
               <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="browserDriver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
@@ -225,12 +218,6 @@
               <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
               <item name="Hbo" type="462c0819:PsiDirectoryNode" />
               <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshots" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
@@ -262,16 +249,39 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="homePage" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testHomePage" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547198240847" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547313404191" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -302,7 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/User/Desktop/blue/BlueGrass/Hbo/src/test/resources/HboTestRunner.xml">
+  <component name="RunManager" selected="TestNG.TestMainPage.testLogo">
     <configuration name="C:/Users/User/Desktop/blue/BlueGrass/Hbo/src/test/resources/HboTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Hbo" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Hbo/src/test/resources/HboTestRunner.xml" />
@@ -331,8 +341,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testForPhysicians" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mtSinai" />
+    <configuration name="TestMainPage.testFacebook" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hbo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="testHomePage.*" />
@@ -341,7 +351,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testForPhysicians" />
+      <option name="METHOD_NAME" value="testFacebook" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -386,19 +396,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.TestMainPage.testForPhysicians" />
       <item itemvalue="TestNG.TestMainPage.testBlogInLinkedIn" />
       <item itemvalue="TestNG.TestMainPage.testLogo" />
       <item itemvalue="TestNG.TestMainPage.testSeries" />
       <item itemvalue="TestNG.C:/Users/User/Desktop/blue/BlueGrass/Hbo/src/test/resources/HboTestRunner.xml" />
+      <item itemvalue="TestNG.TestMainPage.testFacebook" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestMainPage.testLogo" />
+        <item itemvalue="TestNG.TestMainPage.testFacebook" />
         <item itemvalue="TestNG.C:/Users/User/Desktop/blue/BlueGrass/Hbo/src/test/resources/HboTestRunner.xml" />
         <item itemvalue="TestNG.TestMainPage.testSeries" />
-        <item itemvalue="TestNG.TestMainPage.testLogo" />
         <item itemvalue="TestNG.TestMainPage.testBlogInLinkedIn" />
-        <item itemvalue="TestNG.TestMainPage.testForPhysicians" />
       </list>
     </recent_temporary>
   </component>
@@ -416,12 +426,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_User_Desktop_blue_BlueGrass_Hbo_src_test_resources_HboTestRunner_xml - 2019.01.11 at 01h 05m 09s.xml">
-      <configuration name="C:/Users/User/Desktop/blue/BlueGrass/Hbo/src/test/resources/HboTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_User_Desktop_blue_BlueGrass_Hbo_src_test_resources_HboTestRunner_xml - 2019.01.11 at 01h 28m 23s.xml">
-      <configuration name="C:/Users/User/Desktop/blue/BlueGrass/Hbo/src/test/resources/HboTestRunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_User_Desktop_blue_BlueGrass_Hbo_src_test_resources_HboTestRunner_xml - 2019.01.11 at 02h 09m 59s.xml">
       <configuration name="C:/Users/User/Desktop/blue/BlueGrass/Hbo/src/test/resources/HboTestRunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -446,11 +450,18 @@
     <history-entry file="C__Users_User_Desktop_blue_BlueGrass_Hbo_src_test_resources_HboTestRunner_xml - 2019.01.11 at 03h 57m 29s.xml">
       <configuration name="C:/Users/User/Desktop/blue/BlueGrass/Hbo/src/test/resources/HboTestRunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestMainPage_testFacebook - 2019.01.11 at 11h 53m 12s.xml">
+      <configuration name="TestMainPage.testFacebook" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testLogo - 2019.01.11 at 11h 58m 03s.xml">
+      <configuration name="TestMainPage.testLogo" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26477733" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2672065" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -464,7 +475,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5685185" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22962964" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32962963" />
@@ -713,32 +724,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hbo/Extent-Report/ExtentReport.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="46" column="46" lean-forward="true" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+        <state relative-caret-position="232">
+          <caret line="255" column="22" selection-start-line="255" selection-start-column="22" selection-end-line="255" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
+    <entry file="file://$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2279">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="-1687">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="229" column="21" selection-start-line="229" selection-start-column="21" selection-end-line="229" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2255#2674#1" />
           </folding>
         </state>
       </provider>

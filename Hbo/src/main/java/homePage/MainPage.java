@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
 
 public class MainPage extends CommonAPI {
-    @FindBy(xpath = "//*[@class='render bandjson']")
+    @FindBy(xpath = "//div[@class='bands/MainNavigation--topBar']//span[@class='bands/MainNavigation--logo']")
     public static WebElement logo;
     @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div/div[2]/div/div/ul/li[1]/div/a")
     public static WebElement series;
@@ -42,7 +42,7 @@ public class MainPage extends CommonAPI {
     public static WebElement getItToday;
     @FindBy(xpath = "/html/body/main/div[10]/div/div/footer/div[1]/div/div/h2")
     public static WebElement followHbo;
-    @FindBy(xpath = "//*[@class='components/SocialMediaIcon--facebook']")
+    @FindBy(xpath = "//g[@id='btn-facebook-follow-blue']")
     public static WebElement facebook;
     @FindBy(xpath = "//a[@title='instagram']")
     public static WebElement instagram;
@@ -69,167 +69,189 @@ public class MainPage extends CommonAPI {
     @FindBy(xpath = "//p[contains(text(),'All Rights Reserved.')]")
     public static WebElement copyright;
 
-
-
-
-//ok, commit everyday at least 3 times
+    //ok, commit everyday at least 3 times
     //try to keep all the code similar way by copying in your
 //previous intellij frameowrk for security
 //thanks
 //still working on it
-
-
-
-
     public void checkLogo() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         logo.click();
     }
+
     public void checkSeries() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         series.click();
     }
+
     public void checkMovies() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         movies.click();
     }
+
     public void checkSpecials() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         specials.click();
     }
+
     public void checkSports() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         sports.click();
     }
+
     public void checkKids() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         kids.click();
     }
+
     public void checkSearch() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         search.click();
     }
+
     public void checkFreeEpisodes() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         freeEpisodes.click();
     }
-    public void checkSchedule () {
+
+    public void checkSchedule() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         schedule.click();
     }
-     public void checkSignIn () {
+
+    public void checkSignIn() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         signIn.click();
     }
-    public void checkGetHbo () {
-         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-         }.getClass().getEnclosingMethod().getName()));
-         getHbo.click();
+
+    public void checkGetHbo() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        getHbo.click();
     }
-    public void checkTonightOnHbo () {
+
+    public void checkTonightOnHbo() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         tonightOnHbo.click();
     }
-    public void checkSeeFullSchedule () {
+
+    public void checkSeeFullSchedule() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         seeFullSchedule.click();
     }
-    public void checkInHboNews () {
+
+    public void checkInHboNews() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         inHboNews.click();
     }
-    public void checkMovieCollection () {
+
+    public void checkMovieCollection() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         movieCollection.click();
     }
 
-    public void checkStaffPick () {
+    public void checkStaffPick() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         staffPick.click();
     }
-     public void checkGetItToday () {
+
+    public void checkGetItToday() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         getItToday.click();
-     }
+    }
+
     public void checkFollowHbo() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         followHbo.click();
     }
-     public void checkFacebook () {
-         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-         }.getClass().getEnclosingMethod().getName()));
-         facebook.click();
-     }
-     public void checkInstagram () {
+
+    public void checkFacebook() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        facebook.click();
+    }
+
+    public void checkInstagram() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         instagram.click();
-     }
+    }
+
     public void checkAbout() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         about.click();
     }
-   public void checkWaysToGet() {
+
+    public void checkWaysToGet() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         waysToGet.click();
     }
+
     public void checkHelp() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         help.click();
     }
+
     public void checkShop() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         shop.click();
     }
-    public void checkCareers(){
+
+    public void checkCareers() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         careers.click();
     }
-    public void checkHboInspires(){
+
+    public void checkHboInspires() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         hboInspires.click();
     }
-    public void checkPrivacyPolicy(){
+
+    public void checkPrivacyPolicy() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         privacyPolicy.click();
     }
-    public void checkTerms(){
+
+    public void checkTerms() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         terms.click();
     }
-    public void checkAddChoices(){
+
+    public void checkAddChoices() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         adChoices.click();
     }
-    public void checkCopyright () {
+
+    public void checkCopyright() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         copyright.click();
-     }
-  }
+    }
+//still working on pro
+}
