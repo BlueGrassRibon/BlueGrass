@@ -49,7 +49,6 @@ public class SearchDoctor extends BaseUtil {
     public void clearInput(){
         searchField.clear();
     }
-
     public static void waitToBeVisible(){
         TestLogger.log(Search.class.getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         searchKey.click();

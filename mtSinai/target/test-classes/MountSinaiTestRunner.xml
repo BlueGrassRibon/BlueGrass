@@ -22,4 +22,10 @@
         </classes>
     </test>
 
+    <test name="MountSinai" enabled="false">
+        <classes>
+            <class name="testHomePage.TestSearch"/>
+        </classes>
+    </test>
+
 </suite>

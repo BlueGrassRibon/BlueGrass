@@ -105,7 +105,6 @@ public class MainPage extends BaseUtil {
 
     public static WebElement mountSinaiAtAGlance;
     @FindBy(xpath = "//i[@class='fa fa-group']")
-
     public static WebElement symbolOfEmployees;
     @FindBy(xpath = "//h3[contains(text(),'Over 38,000 Employees')]")
     public static WebElement over38000Employees;
@@ -656,6 +655,4 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         copyright .click();
     }
-
-
 }

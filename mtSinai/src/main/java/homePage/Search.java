@@ -9,7 +9,6 @@ import reporting.TestLogger;
 
 public class Search extends BaseUtil {
 
-
         @FindBy(xpath = "//a[@class='hidden-xs dropdown']//i[@class='fa fa-search']")
         public static WebElement searchKey;
         @FindBy(xpath = "//div[@id='search-input-mega']//input[@name='q']")
@@ -30,7 +29,7 @@ public class Search extends BaseUtil {
         public void searchBySubmitButton(String searchKeys){
             TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
             waitToBeVisible();
-            searchField.sendKeys(searchKeys);//have question
+            searchField.sendKeys(searchKeys);
             submitButton.click();
         }
     }
