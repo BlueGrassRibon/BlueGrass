@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a8a109a-fdc8-4532-93a5-b55da8e9a8c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Hbo/src/main/java/homePage/SearchMovies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hbo/src/main/java/homePage/SearchSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hbo/src/main/java/homePage/SearchSingle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestSearchMovies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestSearchSeries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestSearchSingle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hbo/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$1.class" afterDir="false" />
@@ -38,45 +33,15 @@
       <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$29.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$7.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$8.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$23.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$24.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$25.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$26.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$27.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$28.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$29.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$30.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$31.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$32.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/test-classes/testHomePage/TestMainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/SearchSeries$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/SearchSeries$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/target/classes/homePage/SearchSeries.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/target/classes/homePage/SearchSeries.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -103,13 +68,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hbo/src/main/java/homePage/SearchSeries.java">
+        <entry file="file://$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+            <state relative-caret-position="1224">
+              <caret line="135" column="1" selection-start-line="135" selection-start-column="1" selection-end-line="135" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#952#960#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-254">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2255#2674#1" />
               </folding>
             </state>
           </provider>
@@ -118,35 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="22" column="92" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="92" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestSearchSeries.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1445">
-              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -199,7 +149,6 @@
         <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/MainPage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
         <option value="$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Hbo/src/main/java/homePage/HoverOver.java" />
         <option value="$PROJECT_DIR$/Hbo/src/main/java/homePage/SearchSingle.java" />
         <option value="$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestSearchSingle.java" />
@@ -207,6 +156,7 @@
         <option value="$PROJECT_DIR$/Hbo/src/main/java/homePage/SearchMovies.java" />
         <option value="$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestSearchSeries.java" />
         <option value="$PROJECT_DIR$/Hbo/src/main/java/homePage/SearchSeries.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java" />
       </list>
     </option>
@@ -237,9 +187,8 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="775" />
-    <option name="y" value="214" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="27" />
     <option name="width" value="1494" />
     <option name="height" value="990" />
   </component>
@@ -272,6 +221,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -283,18 +233,7 @@
             <path>
               <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
               <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
               <item name="Hbo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
-              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
@@ -326,39 +265,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="homePage" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testHomePage" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547343088928" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547421001348" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -390,37 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestSearchSeries.testSearchSeriesByENTERKeyword">
-    <configuration name="TestSearchMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Hbo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestSearchMovies" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSearchMovies.testSearchMoviesByENTERKeyword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Hbo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestSearchMovies" />
-      <option name="METHOD_NAME" value="testSearchMoviesByENTERKeyword" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestMainPage.testSports">
     <configuration name="TestSearchMovies.testSearchMoviesBySubmitButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hbo" />
       <extension name="coverage">
@@ -433,6 +317,40 @@
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestSearchMovies" />
       <option name="METHOD_NAME" value="testSearchMoviesBySubmitButton" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hbo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.testSports" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Hbo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <option name="METHOD_NAME" value="testSports" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -475,18 +393,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TestSearchMovies.testSearchMoviesBySubmitButton" />
-      <item itemvalue="JUnit.TestSearchMovies.testSearchMoviesByENTERKeyword" />
-      <item itemvalue="JUnit.TestSearchMovies" />
-      <item itemvalue="TestNG.TestSearchSeries.testSearchSeriesBySubmitButton" />
+      <item itemvalue="TestNG.TestMainPage" />
+      <item itemvalue="TestNG.TestMainPage.testSports" />
       <item itemvalue="TestNG.TestSearchSeries.testSearchSeriesByENTERKeyword" />
+      <item itemvalue="TestNG.TestSearchSeries.testSearchSeriesBySubmitButton" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestMainPage.testSports" />
+        <item itemvalue="TestNG.TestMainPage" />
         <item itemvalue="TestNG.TestSearchSeries.testSearchSeriesByENTERKeyword" />
         <item itemvalue="TestNG.TestSearchSeries.testSearchSeriesBySubmitButton" />
         <item itemvalue="JUnit.TestSearchMovies.testSearchMoviesBySubmitButton" />
-        <item itemvalue="JUnit.TestSearchMovies" />
-        <item itemvalue="JUnit.TestSearchMovies.testSearchMoviesByENTERKeyword" />
       </list>
     </recent_temporary>
   </component>
@@ -504,12 +422,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSearchMovies_testSearchMoviesBySubmitButton - 2019.01.12 at 19h 02m 50s.xml">
-      <configuration name="TestSearchMovies.testSearchMoviesBySubmitButton" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSearchMovies_testSearchMoviesBySubmitButton - 2019.01.12 at 19h 03m 13s.xml">
-      <configuration name="TestSearchMovies.testSearchMoviesBySubmitButton" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestSearchMovies_testSearchMoviesBySubmitButton - 2019.01.12 at 19h 04m 27s.xml">
       <configuration name="TestSearchMovies.testSearchMoviesBySubmitButton" configurationId="JUnit" />
     </history-entry>
@@ -534,12 +446,18 @@
     <history-entry file="TestSearchSeries_testSearchSeriesByENTERKeyword - 2019.01.12 at 20h 14m 27s.xml">
       <configuration name="TestSearchSeries.testSearchSeriesByENTERKeyword" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestMainPage - 2019.01.13 at 12h 26m 05s.xml">
+      <configuration name="TestMainPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testSports - 2019.01.13 at 15h 26m 58s.xml">
+      <configuration name="TestMainPage.testSports" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20728745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34979758" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -583,7 +501,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.22962964" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22962964" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32962963" />
@@ -831,20 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3196">
-          <caret line="229" column="22" selection-start-line="229" selection-start-column="22" selection-end-line="229" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2255#2674#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hbo/Extent-Report/ExtentReport.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -894,8 +798,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestSearchSeries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="331">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -904,32 +808,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hbo/src/main/java/homePage/SearchSeries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
+        <state relative-caret-position="331">
           <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#952#960#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Hbo/Extent-Report/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1445">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="1224">
+          <caret line="135" column="1" selection-start-line="135" selection-start-column="1" selection-end-line="135" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-254">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2255#2674#1" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="92" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-end-line="4" />
         </state>
       </provider>
     </entry>

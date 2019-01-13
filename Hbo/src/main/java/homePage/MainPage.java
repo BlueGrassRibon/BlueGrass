@@ -14,9 +14,9 @@ public class MainPage extends CommonAPI {
     public static WebElement movies;
     @FindBy(xpath = "//div[@class='bands/MainNavigation--topBar']//a[text()='Specials']")
     public static WebElement specials;
-    @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div[1]/div[2]/div/div/ul/li[4]/div/a")
+    @FindBy(xpath = "//div[@class='bands/MainNavigation--topBar']//a[text()='Sports']")
     public static WebElement sports;
-    @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div/div[2]/div/div/ul/li[5]/div/a")
+    @FindBy(xpath = "//div[@class='bands/MainNavigation--topBar']//a[text()='Kids']")
     public static WebElement kids;
     @FindBy(xpath = "//div[@class='bands/MainNavigation--topBar']//div[@class='bands/MainNavigation--searchIcon']")
     public static WebElement search;
@@ -60,20 +60,18 @@ public class MainPage extends CommonAPI {
     public static WebElement hboInspires;
     @FindBy(xpath = " //a[contains(text(),'Privacy Policy')]")
     public static WebElement privacyPolicy;
-    @FindBy(xpath = "//a[contains(text(),'Terms')]") //excellent, try to change above xpath, no need to increase test
-    public static WebElement terms; //number, rather do dynamic xpath. when stuck, get them together and knock me
-    @FindBy(xpath = "//a[contains(text(),'Ad Choices')]") //to fix them
+    @FindBy(xpath = "//a[contains(text(),'Terms')]")
+    public static WebElement terms;
+    @FindBy(xpath = "//a[contains(text(),'Ad Choices')]")
     public static WebElement adcChoices;
     @FindBy(xpath = "//a[contains(text(),'Ad Choices')]")
     public static WebElement adChoices;
     @FindBy(xpath = "//p[contains(text(),'All Rights Reserved.')]")
     public static WebElement copyright;
 
-    //ok, commit everyday at least 3 times
-    //try to keep all the code similar way by copying in your
-//previous intellij frameowrk for security
-//thanks
-//still working on it
+
+
+
     public void checkLogo() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
