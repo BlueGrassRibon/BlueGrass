@@ -64,7 +64,7 @@ public class MainPage extends BaseUtil {
     public static WebElement learnMore3;
     @FindBy (xpath = "//*[@id=\"module-container\"]/section[1]/div/div/div/div/div[1]/div/a/img")
     public static WebElement image2;
-    @FindBy (xpath = "//*[@id=\"module-container\"]/section[1]/div/div/div/div/div[1]/div/a/img")
+    @FindBy (xpath = "//div[@class='brandingLogo-footer pull-left']")
     public static WebElement citilogo2;
     @FindBy (xpath = "//div[@class='module-copy']")
     public static WebElement experienceMore;

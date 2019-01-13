@@ -14,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
@@ -23,10 +23,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="-181">
               <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
             </state>
           </provider>
@@ -141,7 +141,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547395230342" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547395605843" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -166,7 +166,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMainPage.testPassword">
+  <component name="RunManager" selected="TestNG.TestMainPage.testCitiLogo2">
+    <configuration name="TestMainPage.testCitiLogo2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CitiBank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <option name="METHOD_NAME" value="testCitiLogo2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestMainPage.testCitigold" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CitiBank" />
       <extension name="coverage">
@@ -196,24 +214,6 @@
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
       <option name="METHOD_NAME" value="testForgotUserId" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMainPage.testInvesting" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CitiBank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testInvesting" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -259,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestMainPage.testCitiLogo2" />
         <item itemvalue="TestNG.TestMainPage.testPassword" />
         <item itemvalue="TestNG.TestMainPage.testUserName" />
         <item itemvalue="TestNG.TestMainPage.testForgotUserId" />
         <item itemvalue="TestNG.TestMainPage.testCitigold" />
-        <item itemvalue="TestNG.TestMainPage.testInvesting" />
       </list>
     </recent_temporary>
   </component>
@@ -281,9 +281,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testForgotUserId - 2019.01.13 at 10h 42m 27s.xml">
-      <configuration name="TestMainPage.testForgotUserId" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestMainPage_testForgotUserId - 2019.01.13 at 10h 43m 01s.xml">
       <configuration name="TestMainPage.testForgotUserId" configurationId="TestNG" />
     </history-entry>
@@ -311,10 +308,12 @@
     <history-entry file="TestMainPage_testUserName - 2019.01.13 at 10h 52m 05s.xml">
       <configuration name="TestMainPage.testUserName" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestMainPage_testPassword - 2019.01.13 at 11h 00m 55s.xml">
+      <configuration name="TestMainPage.testPassword" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="86" y="135" width="1589" height="829" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20232709" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -325,12 +324,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32971507" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42469472" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42469472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39891452" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32971507" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24694708" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24694708" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32971507" />
@@ -446,17 +445,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-181">
+          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
         </state>
       </provider>
     </entry>
