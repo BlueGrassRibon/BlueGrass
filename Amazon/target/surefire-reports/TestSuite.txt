@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestSuite
--------------------------------------------------------------------------------
-Tests run: 346, Failures: 1, Errors: 0, Skipped: 345, Time elapsed: 0.835 s <<< FAILURE! - in TestSuite
-setUp(testHomePage.TestMainPage)  Time elapsed: 0.496 s  <<< FAILURE!
-java.lang.IllegalStateException: The driver executable does not exist: /Users/shagriakabir/Desktop/tofael/kabir/BlueGrass/Amazon/..\Generic\browserDriver\chromedriver.exe
-

@@ -6,18 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Amazon" />
-        <module name="BednBath" />
         <module name="CitiBank" />
         <module name="Generic" />
-        <module name="Hbo" />
-        <module name="HnM" />
-        <module name="mtSinai" />
-        <module name="OfficeDepot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Amazon" target="1.8" />
+      <module name="BednBath" target="1.8" />
+      <module name="Hbo" target="1.8" />
+      <module name="HnM" target="1.8" />
       <module name="MountSinaiTofael" target="1.8" />
+      <module name="mtSinai" target="1.8" />
+      <module name="OfficeDepot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
