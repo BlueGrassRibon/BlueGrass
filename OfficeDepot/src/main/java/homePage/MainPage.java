@@ -1,12 +1,11 @@
 package homePage;
 
-import base.BaseUtil;
-import javafx.scene.control.Alert;
+import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
 
-public class MainPage extends BaseUtil {
+public class MainPage extends CommonAPI {
 
     @FindBy(className = "hometag")
     public static WebElement officeSupplies;

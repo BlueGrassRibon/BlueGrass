@@ -1,6 +1,6 @@
 package googleAPIs;
 
-import base.BaseUtil;
+import base.CommonAPI;
 import com.google.api.client.auth.oauth2.Credential;
 import com.google.api.client.extensions.java6.auth.oauth2.AuthorizationCodeInstalledApp;
 import com.google.api.client.extensions.jetty.auth.oauth2.LocalServerReceiver;
@@ -20,7 +20,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.List;
 
-public class GoogleSheetReader extends BaseUtil {
+public class GoogleSheetReader extends CommonAPI {
     // Application name.
     private static final String APPLICATION_NAME = "Google Sheets API Java GoogleSheetReader";
     // Directory to store user credentials for this application.
