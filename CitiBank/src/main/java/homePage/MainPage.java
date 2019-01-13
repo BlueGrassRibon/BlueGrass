@@ -18,7 +18,7 @@ public class MainPage extends BaseUtil {
     public static WebElement searchIcon;
     @FindBy (xpath = "//*[@id=\"whyCiti\"]/ul/li[1]/a")
     public static WebElement ourStory;
-    @FindBy (xpath = "//*[@id=\"citi-autocomplete-content-searchbox-livesearch\"]")
+    @FindBy (xpath = "//input[@id='citi-autocomplete-content-searchbox-livesearch']")
     public static WebElement searchField;
     @FindBy (xpath = "//*[@id=\"citi-autocomplete-content\"]/div[1]/button[2]")
     public static WebElement submitButton;

@@ -47,12 +47,15 @@ public class TestMainPage extends MainPage {
     public void testSearchField() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSearchIcon();
         mainPage.checkSearchField();
     }
     @Test
     public void testSubmitButton() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSearchIcon();
+        mainPage.checkSearchField();
         mainPage.checkSubmitButton();
     }
     @Test
