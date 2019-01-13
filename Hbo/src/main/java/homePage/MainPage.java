@@ -8,19 +8,19 @@ import reporting.TestLogger;
 public class MainPage extends CommonAPI {
     @FindBy(xpath = "//div[@class='bands/MainNavigation--topBar']//span[@class='bands/MainNavigation--logo']")
     public static WebElement logo;
-    @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div/div[2]/div/div/ul/li[1]/div/a")
+    @FindBy(xpath = "//div[@class='bands/MainNavigation--topBar']//a[text()='Series']")
     public static WebElement series;
-    @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div/div[2]/div/div/ul/li[2]/div/a")
+    @FindBy(xpath = "//div[@class='bands/MainNavigation--topBar']//a[text()='Movies']")
     public static WebElement movies;
-    @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div[1]/div[2]/div/div/ul/li[3]/div/a")
+    @FindBy(xpath = "//div[@class='bands/MainNavigation--topBar']//a[text()='Specials']")
     public static WebElement specials;
     @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div[1]/div[2]/div/div/ul/li[4]/div/a")
     public static WebElement sports;
     @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div/div[2]/div/div/ul/li[5]/div/a")
     public static WebElement kids;
-    @FindBy(xpath = "//div[@class='bands/MainNavigation--searchIcon']")
+    @FindBy(xpath = "//div[@class='bands/MainNavigation--topBar']//div[@class='bands/MainNavigation--searchIcon']")
     public static WebElement search;
-    @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div/div[3]/ul/li[1]/div/a")
+    @FindBy(xpath = "//div[@class='bands/MainNavigation--topBar']//a[text()='Free Episodes']")
     public static WebElement freeEpisodes;
     @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div/div[3]/ul/li[2]/div/a")
     public static WebElement schedule;
@@ -247,11 +247,9 @@ public class MainPage extends CommonAPI {
         }.getClass().getEnclosingMethod().getName()));
         adChoices.click();
     }
-
     public void checkCopyright() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         copyright.click();
     }
-//still working on pro
 }
