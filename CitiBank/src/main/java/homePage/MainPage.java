@@ -12,27 +12,27 @@ public class MainPage extends BaseUtil {
     public static WebElement atmBranch;
     @FindBy (xpath = " //a[contains(text(), 'Open an Account')]")
     public static WebElement openAnAccount;
-    @FindBy (xpath = "//*[@id=\"navUtility\"]/div/div/ul/li[3]/a")
+    @FindBy (linkText = "Español")
     public static WebElement english;
     @FindBy ( xpath = "//img[@id='searchicon']") //start with " then // then htmltag [@id or class or name = 'paste id or class or name' ]"
     public static WebElement searchIcon;
     @FindBy (xpath = "//*[@id=\"whyCiti\"]/ul/li[1]/a")
     public static WebElement ourStory;
-    @FindBy (xpath = "//input[@id='citi-autocomplete-content-searchbox-livesearch']")
+    @FindBy (id = "citi-autocomplete-content-searchbox-livesearch")
     public static WebElement searchField;
-    @FindBy (xpath = "//*[@id=\"citi-autocomplete-content\"]/div[1]/button[2]")
+    @FindBy (className = "citi-autocomplete-content-searchbox-go")
     public static WebElement submitButton;
     @FindBy (xpath = "//*[@id=\"banking\"]/a")
     public static WebElement banking;
-    @FindBy (linkText = "sub_menu_dropdown has-drop subnav_inner-btn testLending")
+    @FindBy (xpath = "//a[@id='lending']")
     public static WebElement lending;
-    @FindBy (css = ".sub_menu_dropdown has-drop subnav_inner-btn testLending")
+    @FindBy (xpath = "//a[@id='investing']")
     public static WebElement Investing;
-    @FindBy (xpath = "sub_menu_dropdown has-drop subnav_inner-btn")
+    @FindBy (xpath = "//li[@id='citiGold']")
     public static WebElement citiGold;
-    @FindBy (xpath = "//input[@id='username' and @class='form-control userMask' and @name='username']")
+    @FindBy (xpath = "//input[@name='username']")
     public static WebElement userName;
-    @FindBy (className = "form-control")
+    @FindBy (xpath = "//input[@class='form-control']")
     public static WebElement password;
     @FindBy (id = "rememberUidLabel")
     public static WebElement rememberMyUserId;

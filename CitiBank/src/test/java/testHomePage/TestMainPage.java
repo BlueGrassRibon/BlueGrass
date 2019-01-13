@@ -95,6 +95,12 @@ public class TestMainPage extends MainPage {
         mainPage.checkUserName();
     }
     @Test
+    public void testPassword() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkPassWord();
+    }
+    @Test
     public void testRememberMyUserId() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
