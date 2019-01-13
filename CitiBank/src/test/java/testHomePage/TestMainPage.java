@@ -9,7 +9,6 @@ import reporting.TestLogger;
 public class TestMainPage extends MainPage {
 
     MainPage mainPage;
-
     @BeforeMethod
     public void initElements() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
@@ -43,6 +42,18 @@ public class TestMainPage extends MainPage {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkSearchIcon();
+    }
+    @Test
+    public void testSearchField() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSearchField();
+    }
+    @Test
+    public void testSubmitButton() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSubmitButton();
     }
     @Test
     public void testCreditCards() {

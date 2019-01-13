@@ -2,8 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="368b685a-c22c-440b-a87d-83e086cb9623" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CitiBank/screenshots/testCreditCards (01.12.2019-19:13PM).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CitiBank/screenshots/testListOfHoverOverReturnMethod (01.12.2019-18:55PM).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$36.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$37.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/SearchPage$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/SearchPage$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/SearchPage$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/SearchPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$35.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$36.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestSearchPage$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestSearchPage$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestSearchPage$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestSearchPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CitiBank/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/src/main/java/homePage/HoverOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/homePage/HoverOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/src/main/java/homePage/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/homePage/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestHoverOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestHoverOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/HoverOver$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/HoverOver$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/HoverOver$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/HoverOver$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/HoverOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/HoverOver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$27.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$32.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$33.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$33.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$34.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$34.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$35.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$35.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestHoverOver$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestHoverOver$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestHoverOver$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestHoverOver$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestHoverOver$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestHoverOver$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestHoverOver$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestHoverOver$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestHoverOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestHoverOver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$27.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$32.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$33.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$33.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$34.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$34.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/testHomePage/TestMainPage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/HnM/target/" />
     <ignored path="$PROJECT_DIR$/OfficeDepot/target/" />
@@ -20,15 +121,51 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/HoverOver.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-start-column="2" selection-end-line="65" selection-end-column="3" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
-                <element signature="e#0#3036#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestMainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/SearchCreditCard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/SearchPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,8 +174,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestHoverOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="135">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/HoverOver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestSearchPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-21">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,15 +222,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestMainPage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
         <option value="$PROJECT_DIR$/CitiBank/src/main/java/homePage/Search.java" />
         <option value="$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestSearch.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestSearchPage.java" />
         <option value="$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestHoverOver.java" />
-        <option value="$PROJECT_DIR$/CitiBank/src/main/java/homePage/SearchPage.java" />
         <option value="$PROJECT_DIR$/CitiBank/src/main/java/homePage/HoverOver.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/SearchPage.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/main/java/homePage/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestSearchPage.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/main/java/homePage/SearchPage.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestMainPage.java" />
       </list>
     </option>
   </component>
@@ -86,7 +249,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="21" />
     <option name="y" value="78" />
     <option name="width" value="1589" />
@@ -172,12 +335,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547334734043" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547339037197" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="homePage" />
+      <recent name="testHomePage" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Generic/browserDriver" />
     </key>
@@ -194,7 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestHoverOver.testListOfHoverOverReturnMethod">
+  <component name="RunManager" selected="TestNG.TestMainPage.testCreditCards">
     <configuration name="TestHoverOver.testListOfHoverOver" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CitiBank" />
       <extension name="coverage">
@@ -247,7 +414,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testLogo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testCreditCards" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CitiBank" />
       <extension name="coverage">
         <pattern>
@@ -257,7 +424,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testLogo" />
+      <option name="METHOD_NAME" value="testCreditCards" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -265,7 +432,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testOpenAnAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testSearchField" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CitiBank" />
       <extension name="coverage">
         <pattern>
@@ -275,7 +442,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testOpenAnAccount" />
+      <option name="METHOD_NAME" value="testSearchField" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -285,11 +452,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestMainPage.testCreditCards" />
+        <item itemvalue="TestNG.TestMainPage.testSearchField" />
         <item itemvalue="TestNG.TestHoverOver.testListOfHoverOverReturnMethod" />
         <item itemvalue="TestNG.TestHoverOver.testListOfHoverOver" />
         <item itemvalue="TestNG.TestMainPage" />
-        <item itemvalue="TestNG.TestMainPage.testLogo" />
-        <item itemvalue="TestNG.TestMainPage.testOpenAnAccount" />
       </list>
     </recent_temporary>
   </component>
@@ -307,12 +474,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testLogo - 2019.01.12 at 12h 38m 20s.xml">
-      <configuration name="TestMainPage.testLogo" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage - 2019.01.12 at 14h 43m 50s.xml">
-      <configuration name="TestMainPage" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestHoverOver_testListOfHoverOver - 2019.01.12 at 16h 38m 50s.xml">
       <configuration name="TestHoverOver.testListOfHoverOver" configurationId="TestNG" />
     </history-entry>
@@ -334,6 +495,15 @@
     <history-entry file="TestHoverOver_testListOfHoverOverReturnMethod - 2019.01.12 at 18h 03m 10s.xml">
       <configuration name="TestHoverOver.testListOfHoverOverReturnMethod" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestHoverOver_testListOfHoverOverReturnMethod - 2019.01.12 at 18h 55m 42s.xml">
+      <configuration name="TestHoverOver.testListOfHoverOverReturnMethod" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testSearchField - 2019.01.12 at 19h 13m 28s.xml">
+      <configuration name="TestMainPage.testSearchField" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testCreditCards - 2019.01.12 at 19h 13m 58s.xml">
+      <configuration name="TestMainPage.testCreditCards" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,8 +516,36 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="78" width="1589" height="829" extended-state="0" />
-    <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20232709" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32971507" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32971507" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39891452" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32971507" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32971507" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32971507" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32837752" />
+      <window_info anchor="right" id="Mongo Explorer" order="7" weight="0.3298722" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20232709" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -372,36 +570,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.3284281" />
-      <window_info anchor="right" id="Mongo Explorer" order="7" weight="0.3298722" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20232709" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32971507" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32971507" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39891452" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32971507" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32971507" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32971507" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.3284281" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32837752" />
       <window_info anchor="right" id="Mongo Explorer" order="7" weight="0.3298722" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
@@ -417,16 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/Search.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
@@ -435,13 +594,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2885#2893#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestMainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -455,17 +607,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestSearchPage.java">
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="13" column="31" lean-forward="true" selection-start-column="2" selection-end-line="30" selection-end-column="3" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestHoverOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/HoverOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestSearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -474,17 +649,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="225">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/HoverOver.java">
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-start-column="2" selection-end-line="65" selection-end-column="3" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="e#0#3036#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,13 +1,11 @@
 package homePage;
 
 import base.BaseUtil;
-import com.mysql.cj.x.protobuf.MysqlxDatatypes;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
 
 public class MainPage extends BaseUtil {
-
     @FindBy (css = "#headerLoka ogoLink")
     public static WebElement logo;
     @FindBy (xpath = "//a[text()='ATM / Branch']")
@@ -18,8 +16,12 @@ public class MainPage extends BaseUtil {
     public static WebElement english;
     @FindBy ( xpath = "//img[@id='searchicon']") //start with " then // then htmltag [@id or class or name = 'paste id or class or name' ]"
     public static WebElement searchIcon;
-    @FindBy (xpath = "//*[@id=\"creditCards\"]/a")
-    public static WebElement creditCards;
+    @FindBy (xpath = "//*[@id=\"whyCiti\"]/ul/li[1]/a")
+    public static WebElement ourStory;
+    @FindBy (xpath = "//*[@id=\"citi-autocomplete-content-searchbox-livesearch\"]")
+    public static WebElement searchField;
+    @FindBy (xpath = "//*[@id=\"citi-autocomplete-content\"]/div[1]/button[2]")
+    public static WebElement submitButton;
     @FindBy (xpath = "//*[@id=\"banking\"]/a")
     public static WebElement banking;
     @FindBy (linkText = "sub_menu_dropdown has-drop subnav_inner-btn testLending")
@@ -77,7 +79,7 @@ public class MainPage extends BaseUtil {
     @FindBy (xpath = "//*[@id=\"whyCiti\"]/h2/b")
     public static WebElement whyCiti;
     @FindBy (xpath = "//*[@id=\"whyCiti\"]/ul/li[1]/a")
-    public static WebElement ourStory;
+    public static WebElement getOurStory;
 
     public void checkLogo(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -99,9 +101,17 @@ public class MainPage extends BaseUtil {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         searchIcon.click();
     }
+    public void checkSearchField(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        searchField.click();
+    }
+    public void checkSubmitButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        submitButton.click();
+    }
     public void checkCreditCards(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        creditCards.click();
+        logo.click();
     }
     public void checkbanking(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
