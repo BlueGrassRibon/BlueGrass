@@ -1,7 +1,10 @@
 package testHomePage;
 
+import com.google.api.services.sheets.v4.Sheets;
 import homePage.MainPage;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
@@ -9,55 +12,47 @@ import reporting.TestLogger;
 public class TestMainPage extends MainPage {
 
     MainPage mainPage;
+
     @BeforeMethod
     public void initialize() {
         TestLogger.log(convertToString(new Object(){}.getClass().getSimpleName()) + " : " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName())); //implemented by Nasir
         mainPage = PageFactory.initElements(driver, MainPage.class);
     }
-    @Test
-    public void testLogo(){
+    @Test(enabled = false, priority = 1)
+    public void testSignInKey(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mainPage.checkLogo();
+        mainPage.checkSignInKey();
     }
-    @Test
-    public void testFindADoctor(){
+    @Test(enabled = false, priority = 2)
+    public void testEmailAddress(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mainPage.checkFindADoctor();
+        mainPage.checkSignInKey();
+        mainPage.checkEmailAddress();
     }
-    @Test
-    public void testCommunityLocations300Plus(){
+    @Test(enabled = false, priority = 3)
+    public void testPassword(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mainPage.checkCommunityLocations300Plus();
+        mainPage.checkSignInKey();
+        mainPage.checkEmailAddress();
+        mainPage.checkPassword();
     }
-    @Test
-    public void testCaptionOfSymbolOfMap() {
+    @Test(enabled = true, priority = 4)
+    public void testSignInSubmitButton() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkCaptionOfSymbolOfMap();
+        waitToBeVisible();
+        mainPage.checkSubmitButton();
     }
-    @Test
-    public void testInsideMountSinaiBlog() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkInsideMountSinaiBlog();
+    @Test(enabled = true, priority = 5)
+    public void testSearchENTERKeyword() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        checkSignInByENTERKeyword("abc1234@gmail.com","cvsPharmacy");
     }
-    @Test
-    public void testBlogInLinkedIn() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkBlogInLinkedIn();
+    @Test(enabled = true, priority = 6)
+    public void testSearchBySubmitButton() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        checkSignInBySubmitButton("pqr1234@gmail.com","Pharmacy");
     }
-    @Test
-    public void testInternationalServices() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkInternationalServices();
-    }
-    @Test
-    public void testFindADoctor3() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkFindADoctor3();
-    }
+
 }

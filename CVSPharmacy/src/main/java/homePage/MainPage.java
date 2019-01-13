@@ -1,76 +1,62 @@
 package homePage;
 
 import base.BaseUtil;
+import com.google.api.services.sheets.v4.Sheets;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import reporting.TestLogger;
 
 public class MainPage extends BaseUtil {
-    @FindBy(xpath = "//img[@alt='Mount Sinai']")
-    public static WebElement logo;
-    @FindBy(linkText = "Find a Doctor")
-    public static WebElement findADoctor;
-    @FindBy(id = "hploc__sel-text-hosp")
-    public static WebElement selectHospitals1;
-    @FindBy(xpath = "//h3[contains(text(),'300+ Community Locations')]")
-    public static WebElement communityLocations300Plus;
-    @FindBy(xpath = "//span[contains(text(),'You can access Mount Sinai health care across New York City and beyond')]")
-    public static WebElement captionOfSymbolOfMap;
-    @FindBy(xpath = "//div[@class='nav navbar col-xs-12']//a[text()='Inside Mount Sinai Blog']")
-    public static WebElement insideMountSinaiBlog;
-    @FindBy(xpath = "//i[@class='fa fa-linkedin']")
-    public static WebElement blogInLinkedIn;
-    @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[contains(text(),'International Services')]")
-    public static WebElement internationalServices;
-    @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[text()='Find a Doctor']")
-    public static WebElement findADoctor3;
+    @FindBy(xpath = "//button[@id='signInBtn']")
+    public static WebElement signInKey;
+    @FindBy(xpath = "//input[@id='clubLoginEmail']")
+    public static WebElement emailAddress;
+    @FindBy(xpath = "//input[@id='clubLoginPwd']")
+    public static WebElement passwordField;
+    //@FindBy(xpath = "//button[text()='Sign In' and @class='my-cvs']")
+    @FindBy(xpath = "//div[@class='signin-button']")
+    public static WebElement signInSubmitButton;
 
 
-
-    public void checkLogo() {
+    public void checkSignInKey() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        logo.click();
+        signInKey.click();
     }
-    public void checkFindADoctor() {
+    public void checkEmailAddress() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        findADoctor.click();
+        emailAddress.click();
     }
-    public void checkSelectHospitals1() {
+    public void checkPassword() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        selectHospitals1.click();
+        passwordField.click();
     }
-    public void checkCommunityLocations300Plus() {
+    public void checkSubmitButton() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        communityLocations300Plus.click();
+        signInSubmitButton.click();
     }
-    public void checkCaptionOfSymbolOfMap() {
+    public static void waitToBeVisible(){
+        TestLogger.log(Sheets.Spreadsheets.DeveloperMetadata.Search.class.getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        signInKey.click();
+        wait.until(ExpectedConditions.visibilityOf(emailAddress));
+    }
+    public void checkSignInBySubmitButton(String email, String password) {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        captionOfSymbolOfMap.click();
+        waitToBeVisible();
+        emailAddress.sendKeys(email);
+        passwordField.sendKeys(password);
+        signInSubmitButton.click();
     }
-    public void checkInsideMountSinaiBlog() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        insideMountSinaiBlog.click();
+    public void checkSignInByENTERKeyword(String email, String password){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        waitToBeVisible();
+        emailAddress.sendKeys(email);
+        passwordField.sendKeys(password, Keys.ENTER);
     }
-    public void checkBlogInLinkedIn() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        blogInLinkedIn.click();
-    }
-    public void checkInternationalServices() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        internationalServices.click();
-    }
-    public void checkFindADoctor3() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        findADoctor3.click();
-    }
-
 }

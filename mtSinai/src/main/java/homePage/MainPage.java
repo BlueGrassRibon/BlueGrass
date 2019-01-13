@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
 
 public class MainPage extends BaseUtil {
+
     @FindBy(xpath = "//img[@alt='Mount Sinai']")
     public static WebElement logo;
     @FindBy(xpath = "//span[@class='hidden-xs']")
@@ -32,7 +33,7 @@ public class MainPage extends BaseUtil {
     public static WebElement aboutUs;
     @FindBy (linkText = "SEARCH")
     public static WebElement search;
-    //@FindBy(xpath = "//div[@class='dropdown-menu mega-dropdown-menu search']//button[@class='btn btn-large']")
+    @FindBy(xpath = "//div[@class='dropdown-menu mega-dropdown-menu search']//button[@class='btn btn-large']")
     public static WebElement searchButton;
     @FindBy(xpath = "//a[@class='hpcards__container--a']//i[@class='fa fa-calendar']")
     public static WebElement calender;
@@ -101,8 +102,6 @@ public class MainPage extends BaseUtil {
     @FindBy(xpath = "//a[@class='view-more text-center']")
     public static WebElement viewMoreLocations;
     @FindBy(xpath = "//h2[contains(text(), 'Mount Sinai at a Glance')]")
-
-
     public static WebElement mountSinaiAtAGlance;
     @FindBy(xpath = "//i[@class='fa fa-group']")
     public static WebElement symbolOfEmployees;
@@ -110,25 +109,20 @@ public class MainPage extends BaseUtil {
     public static WebElement over38000Employees;
     @FindBy(xpath= "//span[contains(text(),'Including more than 6,500 primary care physicians and specialists')]")
     public static WebElement captionOfSymbolOfEmployees;
-
     @FindBy(xpath = "//i[@class='fa fa-map-marker']")
     public static WebElement symbolOfMap;
     @FindBy(xpath = "//h3[contains(text(),'300+ Community Locations')]")
     public static WebElement communityLocations300Plus;
     @FindBy(xpath = "//span[contains(text(),'You can access Mount Sinai health care across New York City and beyond')]")
     public static WebElement captionOfSymbolOfMap;
-
     @FindBy(xpath = "//i[@class='fa fa-building']")
     public static WebElement symbolOfInstitutes;
     @FindBy(xpath = "//h3[contains(text(),'36 Institutes')]")
     public static WebElement thirtySixInstitutes;
     @FindBy(xpath = "//p[contains(text(),'Focused on multidisciplinary research, educational, and clinical progress')]")
     public static WebElement captionOfSymbolOfInstitutes;
-
-
     @FindBy(xpath = "//div[@class='nav navbar col-xs-12']//a[text()='Inside Mount Sinai Blog']")
     public static WebElement insideMountSinaiBlog;
-
     @FindBy(xpath = "//i[@class='fa fa-linkedin']")
     public static WebElement blogInLinkedIn;
     @FindBy(xpath = "//i[@class='fa fa-facebook']")
@@ -141,8 +135,6 @@ public class MainPage extends BaseUtil {
     public static WebElement blogInInstagram;
     @FindBy(xpath = "//i[@class='fa fa-pinterest']")
     public static WebElement blogInPinterest;
-
-
     @FindBy(xpath = "//li[contains(text(),'Patient Information')]")
     public static WebElement patientInformation;
     @FindBy(xpath = "//a[contains(text(),'Pay Your Bill')]")
@@ -161,7 +153,6 @@ public class MainPage extends BaseUtil {
     public static WebElement healthLibrary;
     @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[text()='Clinical Trials ']")
     public static WebElement clinicalTrials ;
-
     @FindBy(xpath = "//li[contains(text(),'Research & Education')]")
     public static WebElement researchAndEducation ;
     @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[text()='Icahn School of Medicine at Mount Sinai']")
@@ -176,7 +167,6 @@ public class MainPage extends BaseUtil {
     public static WebElement findFaculty ;
     @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[text()='Phillips School of Nursing']")
     public static WebElement phillipsSchoolOfNursing ;
-
     @FindBy(xpath = "//li[contains(text(),'For Health Professionals')]")
     public static WebElement forHealthProfessionals ;
     @FindBy(xpath = "//a[contains(text(),'Transfer a Patient')] ")
@@ -189,7 +179,6 @@ public class MainPage extends BaseUtil {
     public static WebElement nursing ;
     @FindBy(xpath = "//a[contains(text(),'Hospital Sponsored Programs')]")
     public static WebElement hospitalSponsoredPrograms ;
-
     @FindBy(xpath = "//div[@class='col-xs-12 col-sm-4 pull-right']//span[text()='Hospitals']")
     public static WebElement selectHospitals ;
     @FindBy(xpath = "//div[@class='col-xs-12 col-sm-4 pull-right']//span[text()='Urgent Care/Walk-In']")
@@ -198,12 +187,8 @@ public class MainPage extends BaseUtil {
     public static WebElement chooseAHospitalLocation ;
     @FindBy(xpath = "//div[@class='select urgent-care']") //test failed
     public static WebElement chooseAUrgentCareLocation ;
-
-
     @FindBy(xpath = "//div[@class='copywrite']") //test failed
     public static WebElement copyright ;
-
-
 
     public void checkLogo() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {

@@ -18,7 +18,7 @@ public class TestHoverOver extends HoverOver {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         hoverOver = PageFactory.initElements(driver, HoverOver.class);
     }
-    @Test(enabled = false, priority = 3)
+    @Test(enabled = true, priority = 3)
     public void testAboutUs () throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         hoverOver.checkAboutUs();
