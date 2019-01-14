@@ -22,9 +22,9 @@ public class MainPage extends CommonAPI {
     public static WebElement search;
     @FindBy(xpath = "//div[@class='bands/MainNavigation--topBar']//a[text()='Free Episodes']")
     public static WebElement freeEpisodes;
-    @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div/div[3]/ul/li[2]/div/a")
+    @FindBy(xpath = "//div[@class='bands/MainNavigation--topBar']//a[text()='Schedule']")
     public static WebElement schedule;
-    @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div/div[3]/ul/li[3]/div/span")
+    @FindBy(xpath = "//div[@class='bands/MainNavigation--topBar']//span[contains(text(),'Sign In')]")
     public static WebElement signIn;
     @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div/div[3]/div/a/span")
     public static WebElement getHbo;
