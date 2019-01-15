@@ -196,3 +196,4 @@ public class TestMainPage extends MainPage {
         mainPage.checkCopyright();
     }
 }
+//updte

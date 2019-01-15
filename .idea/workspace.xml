@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7a8a109a-fdc8-4532-93a5-b55da8e9a8c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2227">
-              <caret line="135" column="1" selection-start-line="135" selection-start-column="1" selection-end-line="135" selection-end-column="1" />
+            <state relative-caret-position="373">
+              <caret line="198" column="7" selection-start-line="198" selection-start-column="7" selection-end-line="198" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="390">
+              <caret line="229" column="11" selection-start-line="229" selection-start-column="11" selection-end-line="229" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2255#2674#1" />
@@ -59,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2533">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="390">
+              <caret line="253" column="5" selection-start-line="253" selection-start-column="5" selection-end-line="253" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,7 +118,6 @@
         <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/SearchDoctor.java" />
         <option value="$PROJECT_DIR$/mtSinai/src/main/java/homePage/MainPage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
-        <option value="$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java" />
         <option value="$PROJECT_DIR$/Hbo/src/main/java/homePage/HoverOver.java" />
         <option value="$PROJECT_DIR$/Hbo/src/main/java/homePage/SearchSingle.java" />
         <option value="$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestSearchSingle.java" />
@@ -124,6 +126,7 @@
         <option value="$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestSearchSeries.java" />
         <option value="$PROJECT_DIR$/Hbo/src/main/java/homePage/SearchSeries.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java" />
         <option value="$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java" />
       </list>
     </option>
@@ -189,6 +192,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,45 +205,14 @@
               <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
               <item name="Hbo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="Hbo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homePage" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547428817392" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547428882125" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -362,10 +335,10 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.TestMainPage" />
+      <item itemvalue="TestNG.TestMainPage.testSignIn" />
       <item itemvalue="TestNG.TestMainPage.testSports" />
       <item itemvalue="TestNG.TestSearchSeries.testSearchSeriesByENTERKeyword" />
       <item itemvalue="TestNG.TestSearchSeries.testSearchSeriesBySubmitButton" />
-      <item itemvalue="TestNG.TestMainPage.testSignIn" />
     </list>
     <recent_temporary>
       <list>
@@ -391,9 +364,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSearchMovies_testSearchMoviesBySubmitButton - 2019.01.12 at 19h 04m 27s.xml">
-      <configuration name="TestSearchMovies.testSearchMoviesBySubmitButton" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestSearchMovies_testSearchMoviesBySubmitButton - 2019.01.12 at 19h 05m 14s.xml">
       <configuration name="TestSearchMovies.testSearchMoviesBySubmitButton" configurationId="JUnit" />
     </history-entry>
@@ -421,12 +391,15 @@
     <history-entry file="TestMainPage_testSports - 2019.01.13 at 15h 26m 58s.xml">
       <configuration name="TestMainPage.testSports" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestMainPage_testSignIn - 2019.01.13 at 20h 15m 09s.xml">
+      <configuration name="TestMainPage.testSignIn" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34979758" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.46153846" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -435,13 +408,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32971507" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32962963" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49878544" weight="0.32962963" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" visible="true" weight="0.21111111" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50040483" side_tool="true" weight="0.42777777" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" weight="0.56296295" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50121456" side_tool="true" weight="0.32962963" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32962963" />
       <window_info anchor="right" id="Maven" order="0" weight="0.32955465" />
@@ -788,20 +761,10 @@
     <entry file="file://$PROJECT_DIR$/Hbo/Extent-Report/ExtentReport.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2227">
-          <caret line="135" column="1" selection-start-line="135" selection-start-column="1" selection-end-line="135" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="390">
+          <caret line="229" column="11" selection-start-line="229" selection-start-column="11" selection-end-line="229" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2255#2674#1" />
@@ -809,10 +772,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Hbo/src/test/java/testHomePage/TestMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="198" column="7" selection-start-line="198" selection-start-column="7" selection-end-line="198" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Hbo/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2533">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="390">
+          <caret line="253" column="5" selection-start-line="253" selection-start-column="5" selection-end-line="253" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
