@@ -40,7 +40,7 @@ public class MainPage extends CommonAPI {
     public static WebElement staffPick;
     @FindBy(xpath = "//span[contains(text(),'Get It Today')]")
     public static WebElement getItToday;
-    @FindBy(xpath = "/html/body/main/div[10]/div/div/footer/div[1]/div/div/h2")
+    @FindBy(xpath = "//h2[@class='modules/FollowHbo--title modules/FollowHbo--light modules/FollowHbo--topTitle']")
     public static WebElement followHbo;
     @FindBy(xpath = "//g[@id='btn-facebook-follow-blue']")
     public static WebElement facebook;
