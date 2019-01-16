@@ -13,7 +13,7 @@
 
     <test name = "CVSPharmacy Home">
         <classes>
-            <class name="testHomePage.TestMainPage"/>
+            <class name="testHomePage.TestTable"/>
         </classes>
     </test>
 

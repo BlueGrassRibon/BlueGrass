@@ -14,7 +14,6 @@
     <test name = "MountSinai Home">
         <classes>
             <class name="testHomePage.TestHoverOver"/>
-            <class name="testHomePage.TestMainPage"/>
             <class name="testHomePage.TestSearch"/>
 
             <class name="testHomePage.TestSearchDepartment"/>

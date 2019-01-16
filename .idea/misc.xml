@@ -9,8 +9,15 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Amazon/pom.xml" />
+        <option value="$PROJECT_DIR$/BednBath/pom.xml" />
+        <option value="$PROJECT_DIR$/CitiBank/pom.xml" />
+        <option value="$PROJECT_DIR$/FaceBook/pom.xml" />
+        <option value="$PROJECT_DIR$/Hbo/pom.xml" />
         <option value="$PROJECT_DIR$/MountSinai/pom.xml" />
         <option value="$PROJECT_DIR$/MountSinaiTofael/pom.xml" />
+        <option value="$PROJECT_DIR$/SantanderBank/pom.xml" />
+        <option value="$PROJECT_DIR$/Tmobile/pom.xml" />
       </set>
     </option>
   </component>
