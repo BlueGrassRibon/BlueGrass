@@ -32,7 +32,7 @@ public class MainPage extends CommonAPI {
     public static WebElement tonightOnHbo;
     @FindBy(xpath = "//span[contains(text(),'See Full Schedule')]")
     public static WebElement seeFullSchedule;
-    @FindBy(xpath = "/html/body/main/div[4]/div/div/div[1]/div[1]/div/h2")
+    @FindBy(xpath = "//h2[contains(text(),'In HBO News')]")
     public static WebElement inHboNews;
     @FindBy(xpath = "//div[@class='modules/LargeImageTwoColumnCollection--name']")
     public static WebElement movieCollection;
