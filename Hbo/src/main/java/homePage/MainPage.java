@@ -26,11 +26,11 @@ public class MainPage extends CommonAPI {
     public static WebElement schedule;
     @FindBy(xpath = "//div[@class='bands/MainNavigation--topBar']//span[contains(text(),'Sign In')]")
     public static WebElement signIn;
-    @FindBy(xpath = "/html/body/main/div[1]/div/div/header/div[1]/div/div[3]/div/a/span")
+    @FindBy(xpath = "//div[@class='bands/MainNavigation--topBar']//span[text()='Get HBO']")
     public static WebElement getHbo;
-    @FindBy(xpath = "/html/body/main/div[3]/div/div/div[1]/div/div/p")
+    @FindBy(xpath = "//p[contains(text(),'Tonight on HBO')]")
     public static WebElement tonightOnHbo;
-    @FindBy(xpath = "/html/body/main/div[3]/div/div/div[1]/div/div/div/a/span/span/span[1]")
+    @FindBy(xpath = "//span[contains(text(),'See Full Schedule')]")
     public static WebElement seeFullSchedule;
     @FindBy(xpath = "/html/body/main/div[4]/div/div/div[1]/div[1]/div/h2")
     public static WebElement inHboNews;
