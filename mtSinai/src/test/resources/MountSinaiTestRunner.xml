@@ -3,7 +3,7 @@
 
 <suite name="MountSinai Automation Script " parallel="false">
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="OS X"/>
     <parameter name="os_version" value="Sierra"/>
@@ -11,19 +11,29 @@
     <parameter name="browserVersion" value="60.0"/>
     <parameter name="url" value="https://www.mountsinai.org/"/>
 
-    <test name = "MountSinai Home">
+    <test name = "MountSinai Home" enabled="true">
+        <classes>
+            <class name="testHomePage.TestMainPage"/>
+        </classes>
+    </test>
+    <test name="MountSinai" enabled="true">
         <classes>
             <class name="testHomePage.TestHoverOver"/>
+        </classes>
+    </test>
+    <test name="MountSinai" enabled="true">
+        <classes>
             <class name="testHomePage.TestSearch"/>
-
-            <class name="testHomePage.TestSearchDepartment"/>
+        </classes>
+    </test>
+    <test name="MountSinai" enabled="true">
+        <classes>
             <class name="testHomePage.TestSearchDoctor"/>
         </classes>
     </test>
-
-    <test name="MountSinai" enabled="false">
+    <test name="MountSinai" enabled="true">
         <classes>
-            <class name="testHomePage.TestSearch"/>
+            <class name="testHomePage.TestSearchDepartment"/>
         </classes>
     </test>
 
