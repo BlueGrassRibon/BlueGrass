@@ -265,7 +265,6 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         sellOnAmazon.click();
     }
-
     @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[3]/ul/li[2]/a")
     public static WebElement sellUnderPrivateBrands;
 
@@ -298,7 +297,6 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         sellOnAmazonBusiness.click();
     }
-
     @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[3]/ul/li[6]/a")
     public static WebElement sellYourAppsOnAmazon;
 
@@ -339,7 +337,6 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         amazonPaymentProducts.click();
     }
-
     @FindBy(xpath = "//*[@id=\"navFooter\"]/div[1]/div/div[5]/ul/li[1]/a")
     public static WebElement amazonRewardsVisaSignatureCards;
 
@@ -485,7 +482,6 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         amazonWebServices.click();
     }
-
     @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[7]/td[1]/a")
     public static WebElement eastDane;
 
@@ -590,4 +586,22 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         primeVideoDirect.click();
     }
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[3]/td[7]/a")
+    public static WebElement homeServices;
+
+    public void checkHomeServices () {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        homeServices.click();
+    }
+    @FindBy(xpath = "//*[@id=\"navFooter\"]/div[4]/table/tbody/tr[5]/td[7]/a")
+    public static WebElement boxOfficeMojo;
+
+    public void checkBoxOfficeMojo () {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        homeServices.click();
+    }
+
 }
+

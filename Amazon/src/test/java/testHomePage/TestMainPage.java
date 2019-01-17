@@ -429,4 +429,17 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkPrimeVideoDirect();
     }
+    @Test
+    public void testHomeServices() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkHomeServices();
+    }
+    @Test
+    public void testBoxOfficeMojo() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkBoxOfficeMojo();
+    }
+
 }
