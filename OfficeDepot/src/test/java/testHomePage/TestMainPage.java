@@ -9,55 +9,26 @@ import reporting.TestLogger;
 public class TestMainPage extends MainPage {
 
     MainPage mainPage;
+
     @BeforeMethod
     public void initialize() {
-        TestLogger.log(convertToString(new Object(){}.getClass().getSimpleName()) + " : " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName())); //implemented by Nasir
+        TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         mainPage = PageFactory.initElements(driver, MainPage.class);
     }
-    @Test
+    @Test(enabled = true, priority = 1)
     public void testLogo(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         mainPage.checkLogo();
     }
-    @Test
-    public void testFindADoctor(){
+    @Test(enabled = true, priority = 2)
+    public void testSearchField(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mainPage.checkFindADoctor();
+        mainPage.checkSearchField();
     }
-    @Test
-    public void testCommunityLocations300Plus(){
+    @Test(enabled = true, priority = 3)
+    public void testSubmitButton(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        mainPage.checkCommunityLocations300Plus();
-    }
-    @Test
-    public void testCaptionOfSymbolOfMap() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkCaptionOfSymbolOfMap();
-    }
-    @Test
-    public void testInsideMountSinaiBlog() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkInsideMountSinaiBlog();
-    }
-    @Test
-    public void testBlogInLinkedIn() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkBlogInLinkedIn();
-    }
-    @Test
-    public void testInternationalServices() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkInternationalServices();
-    }
-    @Test
-    public void testFindADoctor3() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkFindADoctor3();
+        //mainPage.handleNewTab(driver);
+        mainPage.checkSubmitButton(); //not working
     }
 }

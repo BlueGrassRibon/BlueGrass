@@ -3,7 +3,7 @@
 
 <suite name="MountSinai Automation Script " parallel="false">
 
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="OS X"/>
     <parameter name="os_version" value="Sierra"/>
@@ -11,19 +11,29 @@
     <parameter name="browserVersion" value="60.0"/>
     <parameter name="url" value="https://www.mountsinai.org/"/>
 
-    <test name = "MountSinai Home">
+    <test name = "MountSinai Home" enabled="true">
         <classes>
-            <!--<class name="testHomePage.TestHoverOver"/>-->
-            <!--<class name="testHomePage.TestSearch"/>-->
             <class name="testHomePage.TestMainPage"/>
-            <!--<class name="testHomePage.TestSearchDepartment"/>-->
-            <!--<class name="testHomePage.TestSearchDoctor"/>-->
         </classes>
     </test>
-
-    <test name="MountSinai" enabled="false">
+    <test name="MountSinai HoverOver" enabled="true">
+        <classes>
+            <class name="testHomePage.TestHoverOver"/>
+        </classes>
+    </test>
+    <test name="MountSinai Search" enabled="true">
         <classes>
             <class name="testHomePage.TestSearch"/>
+        </classes>
+    </test>
+    <test name="MountSinai Multiple Search by Creating Method" enabled="true">
+        <classes>
+            <class name="testHomePage.TestSearchDoctor"/>
+        </classes>
+    </test>
+    <test name="MountSinai Multiple Search by Creating GetterSetter Method" enabled="true">
+        <classes>
+            <class name="testHomePage.TestSearchDepartment"/>
         </classes>
     </test>
 

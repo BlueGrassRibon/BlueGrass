@@ -11,8 +11,8 @@ import java.util.List;
 
 public class FetchDropDown extends BaseUtil {
 
-    public void checkDropDown (){
-        List<WebElement> element = getListOfWebElementsByCss(".nav-search-dropdown.searchSelect option");
+    public void checkDropDownAllOption (){
+        List<WebElement> element = getListOfWebElementsByCss(".gh-sb.gh-sprRetina option");
         List<String> listOfText = getListOfString(element);
         for (String text : listOfText) {
             System.out.println(text);
@@ -21,7 +21,7 @@ public class FetchDropDown extends BaseUtil {
         Assert.assertEquals(listOfText, expectedMenu);
     }
     public void checkDropDownSingleOption (){
-        List<WebElement> element = getListOfWebElementsByCss(".nav-search-dropdown.searchSelect option:nth-child(3)");
+        List<WebElement> element = getListOfWebElementsByCss(".gh-sb.gh-sprRetina option:nth-child(3)");
         List<String> listOfText = getListOfString(element);
         for (String text : listOfText) {
             System.out.println(text);

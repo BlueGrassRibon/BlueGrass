@@ -17,9 +17,9 @@ public class TestFetchDropDown extends FetchDropDown {
     }
 
     @Test (enabled = true, priority = 1)
-    public void testDropDown (){
+    public void testDropDownAllOption (){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
-        fetchDropDown.checkDropDown();
+        fetchDropDown.checkDropDownAllOption();
     }
     @Test (enabled = true, priority = 2)
     public void testDropDownSingleOption (){

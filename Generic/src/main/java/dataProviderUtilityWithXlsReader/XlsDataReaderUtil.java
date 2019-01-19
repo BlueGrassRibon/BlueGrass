@@ -10,7 +10,7 @@ public class XlsDataReaderUtil {
 
         ArrayList<Object[]> myData = new ArrayList<Object[]>();
         try {
-            reader = new XlsReader("/Users/mohammadsharkar/Desktop/newTofael/FrameWorkTofaelSeptember2018/H&M/data/HnMDataReader.xls");
+            reader = new XlsReader("/Users/mohammadsharkar/Desktop/tk/BlueGrass/OfficeDepot/data/OfficeDepotDataReader.xls");
         }
         catch (Exception e){
             e.printStackTrace();
@@ -19,8 +19,9 @@ public class XlsDataReaderUtil {
         for (int rowNum =2; rowNum <= reader.getRowCount("Sheet1"); rowNum++){
             String  email = reader.getCellData("Sheet1", "email",rowNum );
             String passCode = reader.getCellData("Sheet1","passCode", rowNum);
-            String message = reader.getCellData("Sheet1","message", rowNum);
-            Object obj[] = {email,passCode, message};
+            //String message = reader.getCellData("Sheet1","message", rowNum);
+            //Object obj[] = {email,passCode, message};
+            Object obj[] = {email,passCode};
             myData.add(obj);
         }
         return  myData;

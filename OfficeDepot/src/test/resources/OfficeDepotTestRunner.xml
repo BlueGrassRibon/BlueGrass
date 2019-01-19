@@ -3,18 +3,39 @@
 
 <suite name="OfficeDepot Automation Script " parallel="false">
 
-    <!--<parameter name="useCloudEnv" value="false"/>-->
-    <!--<parameter name="cloudEnvName" value="browserstack"/>-->
-    <!--<parameter name="os" value="OS X"/>-->
-    <!--<parameter name="os_version" value="Sierra"/>-->
-    <!--<parameter name="browserName" value="chrome"/>-->
-    <!--<parameter name="browserVersion" value="60.0"/>-->
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="Sierra"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="71.0"/>
     <parameter name="url" value="https://www.officedepot.com/"/>
 
-    <test name = "MountSinai Home">
+    <test name = "OfficeDepot MainPage" enabled="false">
         <classes>
-            <class name="testHomePage.TestTable"/>
+            <class name="testHomePage.TestMainPage"/>
         </classes>
     </test>
+    <test name = "OfficeDepot Handle PopUp" enabled="false">
+        <classes>
+            <class name="testHomePage.TestHandlePopUp"/>
+        </classes>
+    </test>
+    <test name = "OfficeDepot SignIn and PopUp Handling" enabled="false">
+        <classes>
+            <class name="testHomePage.TestSignInAndPopUpHandling"/>
+        </classes>
+    </test>
+    <test name = "OfficeDepot SignIn with googleSheet" enabled="true">
+        <classes>
+            <class name="testGoogleSheetReader.TestGoogleSheetReader"/>
+        </classes>
+    </test>
+    <test name = "OfficeDepot SignIn with xlsSheet" enabled="false">
+        <classes>
+            <class name="testDataProviderUtilityWithXlsReader.TestLogInByXls"/>
+        </classes>
+    </test>
+
 
 </suite>
