@@ -3,30 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="92dbae2a-e9fe-4e04-9260-800d4a2261df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/src/test/resources/CitiBankTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/src/test/resources/CitiBankTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/target/CitiBank-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/META-INF/CitiBank.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/target/surefire-reports/2019-01-07T10-58-41_787-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/target/surefire-reports/2019-01-12T12-13-35_238-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/target/surefire-reports/2019-01-12T12-13-35_728-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/CitiBankTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/CitiBankTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/META-INF/CitiBank.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Generic/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,16 +42,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
+            <state relative-caret-position="36">
               <caret line="111" selection-start-line="111" selection-end-line="111" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/test/resources/client_secret_35438209960-2lg6b1vm16gr755fjghs3nnhm2tunv3f.apps.googleusercontent.com.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -137,7 +118,80 @@
             <path>
               <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
               <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="homePage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testHomePage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="browserDriver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
@@ -169,6 +223,60 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="databases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dataProviderUtilityWithXlsReader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="googleAPIs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="parser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="reporting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -176,7 +284,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547610614642" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547907497190" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -338,9 +446,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="25" width="1653" height="960" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19428927" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19428927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -354,7 +461,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32949308" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.15552996" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.15552996" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32949308" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32949308" />
@@ -565,13 +672,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
+        <state relative-caret-position="36">
           <caret line="111" selection-start-line="111" selection-end-line="111" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/resources/client_secret_35438209960-2lg6b1vm16gr755fjghs3nnhm2tunv3f.apps.googleusercontent.com.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
