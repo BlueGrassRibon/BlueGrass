@@ -14,7 +14,7 @@ public class MainPage extends BaseUtil {
     public static WebElement openAnAccount;
     @FindBy (linkText = "Español")
     public static WebElement english;
-    @FindBy ( xpath = "//img[@id='searchicon']") //start with " then // then htmltag [@id or class or name = 'paste id or class or name' ]"
+    @FindBy ( xpath = "//img[@id='searchicon']")
     public static WebElement searchIcon;
     @FindBy (xpath = "//*[@id=\"whyCiti\"]/ul/li[1]/a")
     public static WebElement ourStory;
@@ -28,7 +28,7 @@ public class MainPage extends BaseUtil {
     public static WebElement lending;
     @FindBy (xpath = "//a[@id='investing']")
     public static WebElement Investing;
-    @FindBy (xpath = "//li[@id='citiGold']")
+    @FindBy (xpath = "//div[@class='accordionSubMenu']//a[text()='Citigold']")
     public static WebElement citiGold;
     @FindBy (xpath = "//input[@name='username']")
     public static WebElement userName;

@@ -41,8 +41,8 @@ public class BaseUtil {
     public static WebDriverWait wait = null ;  //explicit wait shameem
     public String browserstack_username= "";
     public String browserstack_accesskey = "";
-    public String saucelabs_username = "";
-    public String saucelabs_accesskey = "";
+    public String saucelabs_username = "skabir";
+    public String saucelabs_accesskey = "65bd0051-1836-43d6-8e4b-5702902b75af";
 
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
 
@@ -65,7 +65,6 @@ public class BaseUtil {
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.get(url);
         //driver.manage().window().maximize();
-
     }
     public WebDriver getLocalDriver(@Optional("OS X") String OS, String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
@@ -88,7 +87,6 @@ public class BaseUtil {
             driver.manage().deleteAllCookies();
             //builder = new Actions(driver);
         }
-
         else if(browserName.equalsIgnoreCase("firefox")){
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.gecko.driver", "../Generic/browserDriver/geckodriver");
@@ -101,7 +99,6 @@ public class BaseUtil {
             driver = new InternetExplorerDriver();
         }
         return driver;
-
     }
     public WebDriver getCloudDriver(String envName,String envUsername, String envAccessKey,String os, String os_version,String browserName,
                                     String browserVersion)throws IOException {
@@ -121,7 +118,6 @@ public class BaseUtil {
         }
         return driver;
     }
-
     public static ExtentReports extent;
     @BeforeSuite
     public void extentSetup(ITestContext context) {
@@ -162,7 +158,6 @@ public class BaseUtil {
         }
         driver.quit();
     }
-
     public static void captureScreenshot(WebDriver driver, String screenshotName){
         DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
         Date date = new Date();

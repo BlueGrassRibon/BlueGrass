@@ -2,37 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92dbae2a-e9fe-4e04-9260-800d4a2261df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CitiBank/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/src/test/resources/CitiBankTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/src/test/resources/CitiBankTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/CitiBank-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/META-INF/CitiBank.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/classes/homePage/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/surefire-reports/2019-01-07T10-58-41_787-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/surefire-reports/2019-01-12T12-13-35_238-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/surefire-reports/2019-01-12T12-13-35_728-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/CitiBankTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CitiBank/target/test-classes/CitiBankTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CitiBank/target/test-classes/META-INF/CitiBank.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/Generic/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/CitiBank/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/BlueGrass$_Users_shagriakabir_Desktop_tofael_kabir_BlueGrass_CitiBank_src_test_resources_CitiBankTestRunner_xml.ic" NAME="$PROJECT_DIR$/CitiBank/src/test/resources/CitiBankTestRunner.xml Coverage Results" MODIFIED="1547562937267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="237" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestMainPage.java">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+            <state relative-caret-position="1368">
+              <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CitiBank/src/test/resources/CitiBankTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-181">
-              <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+            <state relative-caret-position="780">
+              <caret line="111" selection-start-line="111" selection-end-line="111" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>saucelabs</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,24 +91,42 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java" />
         <option value="$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestMainPage.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java" />
+        <option value="$PROJECT_DIR$/Generic/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/CitiBank/pom.xml" />
+        <option value="$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestHoverOver.java" />
+        <option value="$PROJECT_DIR$/CitiBank/src/test/resources/CitiBankTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
       </list>
     </option>
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="TestNG" name="$PROJECT_DIR$/CitiBank/src/test/resources/CitiBankTestRunner.xml" />
+    </enabled-run-configurations>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="86" />
-    <option name="y" value="135" />
-    <option name="width" value="1589" />
-    <option name="height" value="829" />
+    <option name="x" value="15" />
+    <option name="y" value="25" />
+    <option name="width" value="1653" />
+    <option name="height" value="960" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -68,71 +137,37 @@
             <path>
               <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
               <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homePage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
-              <item name="CitiBank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testHomePage" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
               <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BlueGrass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BlueGrass" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -141,17 +176,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547395605843" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547610614642" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="homePage" />
-      <recent name="testHomePage" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CitiBank/src/pages" />
       <recent name="$PROJECT_DIR$/CitiBank" />
       <recent name="$PROJECT_DIR$/Generic/lib" />
       <recent name="$PROJECT_DIR$/Generic/browserDriver" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="homePage" />
+      <recent name="testHomePage" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -166,8 +203,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMainPage.testCitiLogo2">
-    <configuration name="TestMainPage.testCitiLogo2" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG./Users/shagriakabir/Desktop/tofael/kabir/BlueGrass/CitiBank/src/test/resources/CitiBankTestRunner.xml">
+    <configuration name="All in CitiBank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CitiBank" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CitiBank" />
       <extension name="coverage">
         <pattern>
@@ -177,8 +222,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testCitiLogo2" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CitiBank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
       <properties />
       <listeners />
       <method v="2">
@@ -203,54 +262,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testForgotUserId" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="/Users/shagriakabir/Desktop/tofael/kabir/BlueGrass/CitiBank/src/test/resources/CitiBankTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CitiBank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testForgotUserId" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMainPage.testPassword" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CitiBank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testPassword" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMainPage.testUserName" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CitiBank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testUserName" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/CitiBank/src/test/resources/CitiBankTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -259,11 +274,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestMainPage.testCitiLogo2" />
-        <item itemvalue="TestNG.TestMainPage.testPassword" />
-        <item itemvalue="TestNG.TestMainPage.testUserName" />
-        <item itemvalue="TestNG.TestMainPage.testForgotUserId" />
+        <item itemvalue="TestNG./Users/shagriakabir/Desktop/tofael/kabir/BlueGrass/CitiBank/src/test/resources/CitiBankTestRunner.xml" />
+        <item itemvalue="TestNG.TestMainPage (1)" />
+        <item itemvalue="JUnit.All in CitiBank" />
         <item itemvalue="TestNG.TestMainPage.testCitigold" />
+        <item itemvalue="TestNG.TestMainPage" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +287,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="368b685a-c22c-440b-a87d-83e086cb9623" name="Default Changelist" comment="" />
+      <changelist id="92dbae2a-e9fe-4e04-9260-800d4a2261df" name="Default Changelist" comment="" />
       <created>1547312207227</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -281,40 +296,80 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testForgotUserId - 2019.01.13 at 10h 43m 01s.xml">
-      <configuration name="TestMainPage.testForgotUserId" configurationId="TestNG" />
+    <history-entry file="_Users_shagriakabir_Desktop_tofael_kabir_BlueGrass_CitiBank_src_test_resources_CitiBankTestRunner_xml - 2019.01.15 at 10h 50m 03s.xml">
+      <configuration name="/Users/shagriakabir/Desktop/tofael/kabir/BlueGrass/CitiBank/src/test/resources/CitiBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testForgotUserId - 2019.01.13 at 10h 43m 44s.xml">
-      <configuration name="TestMainPage.testForgotUserId" configurationId="TestNG" />
+    <history-entry file="_Users_shagriakabir_Desktop_tofael_kabir_BlueGrass_CitiBank_src_test_resources_CitiBankTestRunner_xml - 2019.01.15 at 10h 51m 35s.xml">
+      <configuration name="/Users/shagriakabir/Desktop/tofael/kabir/BlueGrass/CitiBank/src/test/resources/CitiBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testForgotUserId - 2019.01.13 at 10h 45m 40s.xml">
-      <configuration name="TestMainPage.testForgotUserId" configurationId="TestNG" />
+    <history-entry file="_Users_shagriakabir_Desktop_tofael_kabir_BlueGrass_CitiBank_src_test_resources_CitiBankTestRunner_xml - 2019.01.15 at 10h 52m 55s.xml">
+      <configuration name="/Users/shagriakabir/Desktop/tofael/kabir/BlueGrass/CitiBank/src/test/resources/CitiBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testUserName - 2019.01.13 at 10h 46m 45s.xml">
-      <configuration name="TestMainPage.testUserName" configurationId="TestNG" />
+    <history-entry file="_Users_shagriakabir_Desktop_tofael_kabir_BlueGrass_CitiBank_src_test_resources_CitiBankTestRunner_xml - 2019.01.15 at 10h 54m 11s.xml">
+      <configuration name="/Users/shagriakabir/Desktop/tofael/kabir/BlueGrass/CitiBank/src/test/resources/CitiBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testUserName - 2019.01.13 at 10h 47m 24s.xml">
-      <configuration name="TestMainPage.testUserName" configurationId="TestNG" />
+    <history-entry file="_Users_shagriakabir_Desktop_tofael_kabir_BlueGrass_CitiBank_src_test_resources_CitiBankTestRunner_xml - 2019.01.15 at 10h 55m 36s.xml">
+      <configuration name="/Users/shagriakabir/Desktop/tofael/kabir/BlueGrass/CitiBank/src/test/resources/CitiBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testUserName - 2019.01.13 at 10h 48m 18s.xml">
-      <configuration name="TestMainPage.testUserName" configurationId="TestNG" />
+    <history-entry file="_Users_shagriakabir_Desktop_tofael_kabir_BlueGrass_CitiBank_src_test_resources_CitiBankTestRunner_xml - 2019.01.15 at 11h 30m 13s.xml">
+      <configuration name="/Users/shagriakabir/Desktop/tofael/kabir/BlueGrass/CitiBank/src/test/resources/CitiBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testUserName - 2019.01.13 at 10h 49m 06s.xml">
-      <configuration name="TestMainPage.testUserName" configurationId="TestNG" />
+    <history-entry file="_Users_shagriakabir_Desktop_tofael_kabir_BlueGrass_CitiBank_src_test_resources_CitiBankTestRunner_xml - 2019.01.15 at 11h 44m 48s.xml">
+      <configuration name="/Users/shagriakabir/Desktop/tofael/kabir/BlueGrass/CitiBank/src/test/resources/CitiBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testUserName - 2019.01.13 at 10h 51m 30s.xml">
-      <configuration name="TestMainPage.testUserName" configurationId="TestNG" />
+    <history-entry file="_Users_shagriakabir_Desktop_tofael_kabir_BlueGrass_CitiBank_src_test_resources_CitiBankTestRunner_xml - 2019.01.15 at 19h 52m 30s.xml">
+      <configuration name="/Users/shagriakabir/Desktop/tofael/kabir/BlueGrass/CitiBank/src/test/resources/CitiBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testUserName - 2019.01.13 at 10h 52m 05s.xml">
-      <configuration name="TestMainPage.testUserName" configurationId="TestNG" />
+    <history-entry file="_Users_shagriakabir_Desktop_tofael_kabir_BlueGrass_CitiBank_src_test_resources_CitiBankTestRunner_xml - 2019.01.15 at 19h 55m 53s.xml">
+      <configuration name="/Users/shagriakabir/Desktop/tofael/kabir/BlueGrass/CitiBank/src/test/resources/CitiBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testPassword - 2019.01.13 at 11h 00m 55s.xml">
-      <configuration name="TestMainPage.testPassword" configurationId="TestNG" />
+    <history-entry file="_Users_shagriakabir_Desktop_tofael_kabir_BlueGrass_CitiBank_src_test_resources_CitiBankTestRunner_xml - 2019.01.15 at 20h 09m 15s.xml">
+      <configuration name="/Users/shagriakabir/Desktop/tofael/kabir/BlueGrass/CitiBank/src/test/resources/CitiBankTestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="135" width="1589" height="829" extended-state="0" />
+    <frame x="15" y="25" width="1653" height="960" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19428927" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32971507" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38479263" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23502304" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32949308" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.15552996" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32949308" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32949308" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32837752" />
+      <window_info anchor="right" id="Mongo Explorer" order="7" weight="0.32967034" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32905984" />
+    </layout>
+    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20232709" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -342,58 +397,9 @@
       <window_info anchor="right" id="Maven" order="6" weight="0.32837752" />
       <window_info anchor="right" id="Mongo Explorer" order="7" weight="0.32967034" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20232709" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32971507" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32971507" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39891452" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32971507" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32971507" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32971507" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.32837752" />
-      <window_info anchor="right" id="Mongo Explorer" order="7" weight="0.3298722" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/SearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestSearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -418,20 +424,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/LoanList.java">
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestLoanList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestLoanList.java">
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestSearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -445,17 +451,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/pages/MainPage.java" />
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/LoanList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/dataProviderUtilityWithXlsReader/XlsDataReaderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3265">
+          <caret line="758" selection-start-line="758" selection-end-line="758" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestHoverOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="1070" selection-start-line="1070" selection-end-line="1070" />
+          <folding>
+            <element signature="e#35804#35805#0" expanded="true" />
+            <element signature="e#35858#35859#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CitiBank/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+        <state relative-caret-position="135">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CitiBank/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181">
-          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+        <state relative-caret-position="1368">
+          <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CitiBank/src/test/resources/CitiBankTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
