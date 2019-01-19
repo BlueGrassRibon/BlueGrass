@@ -1,24 +1,23 @@
 package dataProviderUtilityWithXlsReader;
 
 import base.BaseUtil;
-import homePage.SignInAndPopUpHandling;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.DataProvider;
-import reporting.TestLogger;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 
 public class LogInByXls extends BaseUtil {
-    @FindBy(xpath = "//a[text()='Login or Register']")
-    public static WebElement logInKey;
-    @FindBy(xpath = "//input[@name='loginName']")
-    public static WebElement emailAddressOrLogIn;
-    @FindBy(xpath = "//input[@name='password']")
+
+    @FindBy(xpath = "//a[text()='MyChart']")
+    public static WebElement myChart;
+    @FindBy(xpath = "//form[@id='loginForm']//p[@class='input_treatment']")
+    public static WebElement userName;
+    @FindBy(xpath = "//input[@name='Password']")
     public static WebElement passwordField;
-    @FindBy(xpath = "//input[@class='btn rounded w100 primary js_loginBtn']")
-    public static WebElement signInSubmitButton;
+    @FindBy(xpath = "//form[@id='loginForm']//button[@class='btn btn-large' ]")
+    public static WebElement logInSubmitButton;
 
     @DataProvider
     public Iterator<Object[]> supplyDataExcel(){
@@ -28,10 +27,10 @@ public class LogInByXls extends BaseUtil {
     }
     public void signInByDataProvider(String email, String password) throws Exception{
         Thread.sleep(3000);
-        logInKey.click();
-        emailAddressOrLogIn.sendKeys(email);
+        myChart.click();
+        userName.sendKeys(email);
         passwordField.sendKeys(password);
-       signInSubmitButton.click();
+        logInSubmitButton.click();
     }
 
 }

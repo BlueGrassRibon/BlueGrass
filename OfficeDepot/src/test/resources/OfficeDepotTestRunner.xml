@@ -26,12 +26,12 @@
             <class name="testHomePage.TestSignInAndPopUpHandling"/>
         </classes>
     </test>
-    <test name = "OfficeDepot SignIn with googleSheet" enabled="true">
+    <test name = "OfficeDepot SignIn with googleSheet" enabled="false">
         <classes>
             <class name="testGoogleSheetReader.TestGoogleSheetReader"/>
         </classes>
     </test>
-    <test name = "OfficeDepot SignIn with xlsSheet" enabled="false">
+    <test name = "OfficeDepot SignIn with xlsSheet" enabled="true">
         <classes>
             <class name="testDataProviderUtilityWithXlsReader.TestLogInByXls"/>
         </classes>

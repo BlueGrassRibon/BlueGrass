@@ -1,36 +1,25 @@
 package testGoogleSheetReader;
 
-import base.BaseUtil;
-import com.google.api.services.sheets.v4.Sheets;
-import com.google.api.services.sheets.v4.model.ValueRange;
 import googleSheetReader.GoogleSheetPage;
 import googleSheetReader.GoogleSheetReader;
-import homePage.MainPage;
-import homePage.SignInAndPopUpHandling;
-import junit.framework.Assert;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import reporting.TestLogger;
 
 import java.io.IOException;
 import java.util.List;
-
-import static base.BaseUtil.convertToString;
-import static base.BaseUtil.driver;
 
 public class TestGoogleSheetReader extends GoogleSheetReader {
 
     GoogleSheetPage googleSheetPage;
     GoogleSheetReader googleSheetReader;
-    SignInAndPopUpHandling signInAndPopUpHandling;
+
 
     @BeforeMethod
     public void initialize() {
        //TestLogger.log(getClass().getSimpleName() + " : " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         googleSheetPage = PageFactory.initElements(driver, GoogleSheetPage.class);
         googleSheetReader = PageFactory.initElements(driver, GoogleSheetReader.class);
-        signInAndPopUpHandling = PageFactory.initElements(driver,SignInAndPopUpHandling.class);
     }
 
     @Test (enabled = false)
@@ -38,7 +27,6 @@ public class TestGoogleSheetReader extends GoogleSheetReader {
         int i = 0;
         String spreadsheetId = "1ZgLFVLXMXfG0CZLErvLrda8_OsLcj81k1Y4F4Aog2T4";
         String range = "Sheet1!A2:B";
-        signInAndPopUpHandling.popUpHandling();
 
         //List<String> actualErrorMessage = googleSheetsPage.signInByInvalidIdPass(spreadsheetId, range);
         List<List<Object>> expectedErrorMessage = googleSheetPage.getSpreadSheetRecords(spreadsheetId, range);
@@ -53,7 +41,6 @@ public class TestGoogleSheetReader extends GoogleSheetReader {
     @Test (enabled = true)
     public void testLoginUsingValidPasswordUsingGoogleSheet() {
         try{
-            signInAndPopUpHandling.popUpHandling();
             int i = 0;
             Thread.sleep(3000);
             String spreadsheetId = "1ZgLFVLXMXfG0CZLErvLrda8_OsLcj81k1Y4F4Aog2T4";
@@ -77,7 +64,6 @@ public class TestGoogleSheetReader extends GoogleSheetReader {
     }
     @Test (enabled = false)
     public void testLogin() throws Exception{
-        signInAndPopUpHandling.popUpHandling();
         googleSheetPage.loginTest("aaabb@ccc.ccc", "12345");
     }
 }

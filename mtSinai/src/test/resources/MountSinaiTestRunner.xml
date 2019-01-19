@@ -11,30 +11,41 @@
     <parameter name="browserVersion" value="60.0"/>
     <parameter name="url" value="https://www.mountsinai.org/"/>
 
-    <test name = "MountSinai Home" enabled="true">
+    <test name = "MountSinai Home" enabled="false">
         <classes>
             <class name="testHomePage.TestMainPage"/>
         </classes>
     </test>
-    <test name="MountSinai HoverOver" enabled="true">
+    <test name="MountSinai HoverOver" enabled="false">
         <classes>
             <class name="testHomePage.TestHoverOver"/>
         </classes>
     </test>
-    <test name="MountSinai Search" enabled="true">
+    <test name="MountSinai Search" enabled="false">
         <classes>
             <class name="testHomePage.TestSearch"/>
         </classes>
     </test>
-    <test name="MountSinai Multiple Search by Creating Method" enabled="true">
+    <test name="MountSinai Multiple Search by Creating Method" enabled="false">
         <classes>
             <class name="testHomePage.TestSearchDoctor"/>
         </classes>
     </test>
-    <test name="MountSinai Multiple Search by Creating GetterSetter Method" enabled="true">
+    <test name="MountSinai Multiple Search by Creating GetterSetter Method" enabled="false">
         <classes>
             <class name="testHomePage.TestSearchDepartment"/>
         </classes>
     </test>
+    <test name="MountSinai SignIn with googleSheet" enabled="false">
+        <classes>
+            <class name="testGoogleSheetReader.TestGoogleSheetReader"/>
+        </classes>
+    </test>
+    <test name="MountSinai SignIn with xlsSheet" enabled="true">
+        <classes>
+            <class name="testDataProviderUtilityWithXlsReader.TestLogInByXls"/>
+        </classes>
+    </test>
+
 
 </suite>
