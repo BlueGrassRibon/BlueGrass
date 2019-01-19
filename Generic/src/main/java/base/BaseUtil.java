@@ -39,8 +39,8 @@ public class BaseUtil {
     public static WebDriver driver = null;
     public static Actions builder = null; //hoover over
     public static WebDriverWait wait = null ;  //explicit wait shameem
-    public String browserstack_username= "";
-    public String browserstack_accesskey = "";
+    public String browserstack_username= "kabirshahariar1";
+    public String browserstack_accesskey = "ZzsViqxsLsAstdZXyWx3";
     public String saucelabs_username = "skabir";
     public String saucelabs_accesskey = "65bd0051-1836-43d6-8e4b-5702902b75af";
 

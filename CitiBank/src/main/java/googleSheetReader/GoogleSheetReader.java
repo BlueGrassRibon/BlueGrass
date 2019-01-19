@@ -1,4 +1,4 @@
-package googleAPIs;
+package googleSheetReader;
 
 import base.BaseUtil;
 import com.google.api.client.auth.oauth2.Credential;
@@ -71,9 +71,7 @@ public class GoogleSheetReader extends BaseUtil {
      */
     public static Sheets getSheetsService() throws IOException {
         Credential credential = authorize();
-        return new Sheets.Builder(HTTP_TRANSPORT, JSON_FACTORY, credential)
-                .setApplicationName(APPLICATION_NAME)
-                .build();
+        return new Sheets.Builder(HTTP_TRANSPORT, JSON_FACTORY, credential).setApplicationName(APPLICATION_NAME).build();
     }
 
 
