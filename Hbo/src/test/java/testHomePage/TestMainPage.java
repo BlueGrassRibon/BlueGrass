@@ -14,6 +14,7 @@ public class TestMainPage extends MainPage {
         }.getClass().getSimpleName()) + " : " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         mainPage = PageFactory.initElements(driver, MainPage.class);
+
     }
     @Test
     public void testLogo() {
@@ -195,5 +196,30 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkCopyright();
     }
+
+    @Test
+    public void testUserId() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkUserId();
+    }
+    @Test
+    public void testPasswordField() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkPasswordField();
+    }
+    @Test
+    public void testSignInSubmitButton() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkSignInSubmitButton();
+    }
+    @Test
+    public void testhboFios() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkHboFios();
+    }
+
 }
-//updte

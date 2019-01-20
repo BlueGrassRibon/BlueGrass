@@ -68,6 +68,17 @@ public class MainPage extends CommonAPI {
     public static WebElement adChoices;
     @FindBy(xpath = "//p[contains(text(),'All Rights Reserved.')]")
     public static WebElement copyright;
+    @FindBy(xpath = "//*[@id=\"IDToken1\"]")
+    public static WebElement userId;
+    @FindBy(xpath = "//*[@id=\"IDToken2\"]")
+    public static WebElement passwordField;
+    @FindBy(xpath = "//*[@id=\"tvloginsignin\"]")
+    public static WebElement signInSubmitButton;
+    @FindBy(xpath = "//img[@title='Verizon FiOS']")
+    public static WebElement hboFios;
+
+
+
 
 
 
@@ -250,5 +261,28 @@ public class MainPage extends CommonAPI {
         }.getClass().getEnclosingMethod().getName()));
         copyright.click();
     }
-}
-//updte
+    public void checkUserId () {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        userId.click();
+    }
+
+    public void checkPasswordField () {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        passwordField.click();
+    }
+
+    public void checkSignInSubmitButton () {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        signInSubmitButton.click();
+    }
+    public void checkHboFios () {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        hboFios.click();
+    }
+
+
+    }
