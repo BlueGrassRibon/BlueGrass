@@ -17,6 +17,7 @@
         <module>BednBath</module>
         <module>Generic</module>
         <module>mtSinai</module>
+        <module>TableAutomationS</module>
     </modules>
 
     <dependencyManagement>

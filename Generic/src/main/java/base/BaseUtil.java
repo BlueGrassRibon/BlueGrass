@@ -50,7 +50,7 @@ public class BaseUtil {
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("Windows") String os, @Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("60")
                               String browserVersion, @Optional("http://www.amazon.com") String url)throws IOException {
-        System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver");
+        System.setProperty("webdriver.chrome.driver","..C:\\Users\\chowd\\Desktop\\blue\\BlueGrass\\Generic\\browserDriver\\chrome.exe");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
                 getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
@@ -60,8 +60,8 @@ public class BaseUtil {
         }else{
             getLocalDriver(os, browserName);
         }
-        wait = new WebDriverWait(driver,10);
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        wait = new WebDriverWait(driver,20);
+        driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.get(url);
         //driver.manage().window().maximize();

@@ -11,9 +11,19 @@
     <parameter name="browserVersion" value="60.0"/>
     <parameter name="url" value="https://www.amazon.com/"/>
 
-    <test name = "Amazon Home">
+    <test name = "Amazon Home" enabled="false">
         <classes>
             <class name="testHomePage.TestMainPage"/>
+        </classes>
+    </test>
+    <test name = "Amazon Home" enabled="true">
+        <classes>
+            <class name="testHomePage.TestGoogleApi"/>
+        </classes>
+    </test>
+    <test name = "Amazon Home" enabled="true">
+        <classes>
+            <class name="testDropDown.TestFetchDropDown"/>
         </classes>
     </test>
 
