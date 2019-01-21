@@ -17,6 +17,9 @@
         <module>BednBath</module>
         <module>Generic</module>
         <module>mtSinai</module>
+        <module>Dropdown</module>
+        <module>PopupHandeling</module>
+        <module>TableAutomation</module>
     </modules>
 
     <dependencyManagement>

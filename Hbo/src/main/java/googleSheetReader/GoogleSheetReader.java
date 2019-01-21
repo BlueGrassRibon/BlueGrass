@@ -24,7 +24,7 @@ public class GoogleSheetReader extends CommonAPI {
     // Application name.
     private static final String APPLICATION_NAME = "Google Sheets API Java GoogleSheetReader";
     // Directory to store user credentials for this application.
-    private static final java.io.File DATA_STORE_DIR = new java.io.File(System.getProperty("user.dir"), ".credentials/sheets-googleapis");
+    private static final java.io.File DATA_STORE_DIR = new java.io.File(System.getProperty("user.dir"),".credentials/sheets-googleapis");
     // Global instance of the {@link FileDataStoreFactory}.
     private static FileDataStoreFactory DATA_STORE_FACTORY;
     // Global instance of the JSON factory.

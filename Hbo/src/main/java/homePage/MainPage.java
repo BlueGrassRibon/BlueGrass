@@ -42,7 +42,7 @@ public class MainPage extends CommonAPI {
     public static WebElement getItToday;
     @FindBy(xpath = "//h2[@class='modules/FollowHbo--title modules/FollowHbo--light modules/FollowHbo--topTitle']")
     public static WebElement followHbo;
-    @FindBy(xpath = "//g[@id='btn-facebook-follow-blue']")
+    @FindBy(xpath = "/html[1]/body[1]/main[1]/div[9]/div[1]/div[1]/footer[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]/*")
     public static WebElement facebook;
     @FindBy(xpath = "//a[@title='instagram']")
     public static WebElement instagram;
@@ -76,12 +76,6 @@ public class MainPage extends CommonAPI {
     public static WebElement signInSubmitButton;
     @FindBy(xpath = "//img[@title='Verizon FiOS']")
     public static WebElement hboFios;
-
-
-
-
-
-
 
     public void checkLogo() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {

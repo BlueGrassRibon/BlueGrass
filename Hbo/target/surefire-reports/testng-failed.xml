@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Hbo Automation Script]">
+  <parameter name="useCloudEnv" value="false"/>
+  <parameter name="os" value="windows"/>
+  <parameter name="os_version" value="10"/>
+  <parameter name="browserVersion" value="60.0"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="https://www.hbo.com/"/>
+  <test thread-count="5" verbose="0" name="Hbo Home(failed)">
+    <classes>
+      <class name="testHomePage.TestMainPage">
+        <methods>
+          <include name="testStaffPick"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testPrivacyPolicy"/>
+          <include name="testPasswordField"/>
+          <include name="testSignInSubmitButton"/>
+          <include name="extentSetup"/>
+          <include name="testTerms"/>
+          <include name="testTonightOnHbo"/>
+          <include name="testMovies"/>
+          <include name="testFacebook"/>
+          <include name="testSeries"/>
+          <include name="testShop"/>
+          <include name="testhboFios"/>
+          <include name="testWaysToGet"/>
+          <include name="setUp"/>
+          <include name="testLogo"/>
+          <include name="testSpecials"/>
+          <include name="initialize"/>
+          <include name="testSearch"/>
+          <include name="testSports"/>
+          <include name="startExtent"/>
+          <include name="testSchedule"/>
+          <include name="testKids"/>
+          <include name="testSignIn"/>
+          <include name="testMovieCollection"/>
+          <include name="testSeeFullSchedule"/>
+          <include name="testInHboNews"/>
+          <include name="testUserId"/>
+          <include name="generateReport"/>
+          <include name="testInstagram"/>
+        </methods>
+      </class> <!-- testHomePage.TestMainPage -->
+    </classes>
+  </test> <!-- Hbo Home(failed) -->
+</suite> <!-- Failed suite [Hbo Automation Script] -->

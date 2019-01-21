@@ -3,7 +3,7 @@
 
 <suite name="Hbo Automation Script" parallel="false">
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <!--parameter name="CloudEnvName" value="Saucelabs"/>-->
     <parameter name="os" value="windows"/>
@@ -12,33 +12,10 @@
     <parameter name="browserVersion" value="60.0"/>
     <parameter name="url" value="https://www.hbo.com/"/>
 
-    <test name = "Hbo Home" enabled="false">
+    <test name = "Hbo Home" enabled="true">
         <classes>
             <class name="testHomePage.TestMainPage"/>
         </classes>
     </test>
-    <test name = "Hbo Handle PopUp" enabled="false">
-        <classes>
-           <!-- <class name="testHomePage.TestHandlePopUp"/>-->
-        </classes>
-    </test>
-    <test name = "Hbo SignIn and PopUp Handling" enabled="false">
-        <classes>
-            <!-- <class name="testHomePage.TestSignInAndPopUpHandling"/>-->
-        </classes>
-    </test>
-    <test name = "Hbo SignIn with googleSheet" enabled="true">
-        <classes>
-            <class name="testGoogleSheetReader.TestGoogleSheetReader"/>
-        </classes>
-    </test>
-    <test name = "Hbo SignIn with xlsSheet" enabled="false">
-        <classes>
-            <class name="testDataProviderUtilityWithXlsReader.TestLogInByXls"/>
-        </classes>
-    </test>
-
-
-
 
 </suite>

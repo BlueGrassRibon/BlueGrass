@@ -12,4 +12,3 @@ databases\Student.class
 reporting\TestLogger.class
 utility\DataReader.class
 databases\ConnectToSqlDB.class
-base\BaseUtil.class

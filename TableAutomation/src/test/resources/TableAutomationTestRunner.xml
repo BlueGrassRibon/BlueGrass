@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Hbo Automation Script" parallel="false">
+
+    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <!--parameter name="CloudEnvName" value="Saucelabs"/>-->
+    <parameter name="os" value="windows"/>
+    <parameter name="os_version" value="10"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="60.0"/>
+    <parameter name="url" value="https://us.vwr.com/store/product?keyword=10017-062"/>
+
+    <test name = "Hbo Home" enabled="true">
+        <classes>
+            <class name="tableAutomation.TableAutomation"/>
+        </classes>
+    </test>
+
+</suite>
