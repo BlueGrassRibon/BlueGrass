@@ -1,14 +1,14 @@
 package search;
 
 import base.BaseUtil;
-import base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import reporting.TestLogger;
 
-public class SingleSearch extends CommonAPI {
+public class SingleSearch extends BaseUtil {
 
     @FindBy(xpath = "//*[@id=\"nav-xshop\"]/a[2]")
     public static WebElement searchField;

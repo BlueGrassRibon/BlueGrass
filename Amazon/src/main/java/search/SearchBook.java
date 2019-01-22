@@ -2,7 +2,6 @@ package search;
 
 
 import base.BaseUtil;
-import base.CommonAPI;
 import com.google.api.services.sheets.v4.Sheets;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -15,7 +14,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-    public class SearchBook extends CommonAPI {
+    public class SearchBook extends BaseUtil {
 
         @FindBy(how = How.XPATH, using ="//*[@id=\"nav-search-label\"]")
         private static WebElement searchField;

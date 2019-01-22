@@ -206,6 +206,18 @@ public class BaseUtil {
         splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
         return splitString;
     }
+    public List<WebElement> getListOfWebElementsByCss(String locator) {
+        List<WebElement> list = new ArrayList<WebElement>();
+        list = driver.findElements(By.cssSelector(locator));
+        return list;
+    }
+    public List<String> getListOfString(List<WebElement> list) {
+        List<String> items = new ArrayList<String>();
+        for (WebElement element : list) {
+            items.add(element.getText());
+        }
+        return items;
+    }
     public void inputValueInTextBoxByWebElement(WebElement webElement, String value){
         webElement.sendKeys(value + Keys.ENTER);
     }

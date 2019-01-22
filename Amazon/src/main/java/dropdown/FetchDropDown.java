@@ -1,14 +1,12 @@
 package dropdown;
 
-import base.CommonAPI;
+import base.BaseUtil;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-import reporting.TestLogger;
 
 import java.util.List;
 
-public class FetchDropDown extends CommonAPI {
+public class FetchDropDown extends BaseUtil {
 
     public void checkDropDownAllOption (){
         List<WebElement> element = getListOfWebElementsByCss(".nav-search-dropdown.searchSelect option");

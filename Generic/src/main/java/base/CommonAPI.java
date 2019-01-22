@@ -50,7 +50,6 @@ public class CommonAPI {
     @BeforeSuite
     public void extentSetup(ITestContext context) {
         extent = ExtentManager.getInstance();
-
     }
     @BeforeMethod
     public void startExtent(Method method) {
@@ -417,7 +416,7 @@ public class CommonAPI {
             action.moveToElement(element).perform();
         }
     }
-    //handling Alert
+    //handling Alert/popup
     public void okAlert(){
         Alert alert = driver.switchTo().alert();
         alert.accept();

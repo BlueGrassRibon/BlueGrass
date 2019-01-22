@@ -16,14 +16,19 @@
             <class name="testHomePage.TestMainPage"/>
         </classes>
     </test>
-    <test name = "Amazon Home" enabled="true">
+    <test name = "Amazon GoogleSheet" enabled="false">
         <classes>
             <class name="testHomePage.TestGoogleApi"/>
         </classes>
     </test>
-    <test name = "Amazon Home" enabled="true">
+    <test name = "Amazon Dropdown" enabled="false">
         <classes>
             <class name="testDropDown.TestFetchDropDown"/>
+        </classes>
+    </test>
+    <test name = "Amazon Xls" enabled="true">
+        <classes>
+            <class name="testXls.TestXlsReader"/>
         </classes>
     </test>
 

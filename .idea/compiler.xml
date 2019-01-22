@@ -17,5 +17,17 @@
         <module name="TableAutomationS" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Amazon" target="1.8" />
+      <module name="BednBath" target="1.8" />
+      <module name="BlueGrass" target="1.8" />
+      <module name="CitiBank" target="1.8" />
+      <module name="Generic" target="1.8" />
+      <module name="Hbo" target="1.8" />
+      <module name="HnM" target="1.8" />
+      <module name="mtSinai" target="1.8" />
+      <module name="OfficeDepot" target="1.8" />
+      <module name="TableAutomationS" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -2,7 +2,7 @@ package testHomePage;
 
 import com.google.api.services.sheets.v4.Sheets;
 import com.google.api.services.sheets.v4.model.ValueRange;
-import googlesheetapi.GoogleSheetReader;
+import googleSheetApi.GoogleSheetReader;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
