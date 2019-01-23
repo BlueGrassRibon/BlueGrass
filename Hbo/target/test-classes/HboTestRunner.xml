@@ -3,18 +3,34 @@
 
 <suite name="Hbo Automation Script" parallel="false">
 
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <!--parameter name="CloudEnvName" value="Saucelabs"/>-->
     <parameter name="os" value="windows"/>
     <parameter name="os_version" value="10"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="60.0"/>
-    <parameter name="url" value="https://www.hbo.com/"/>
+    <parameter name="url" value="https://www.hbo.com"/>
 
     <test name = "Hbo Home" enabled="true">
         <classes>
             <class name="testHomePage.TestMainPage"/>
+        </classes>
+    </test>
+    <test name = "Hbo Home" enabled="false">
+        <classes>
+            <class name="testHomePage.TestSearchMovies"/>
+        </classes>
+    </test>
+    <test name = "Hbo Home" enabled="false">
+        <classes>
+            <class name="testHomePage.TestSearchSeries"/>
+        </classes>
+    </test>
+
+    <test name = "Hbo Home" enabled="false">
+        <classes>
+            <class name="testHomePage.TestSearchSingle"/>
         </classes>
     </test>
 

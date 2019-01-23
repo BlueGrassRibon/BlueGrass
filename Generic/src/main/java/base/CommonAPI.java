@@ -40,8 +40,8 @@ import java.util.concurrent.TimeUnit;
 public class CommonAPI {
     public static ExtentReports extent;
     public static WebDriver driver = null;
-    public static Actions builder = null; //hoover over
-    public static WebDriverWait wait = null ;  //explicit wait shameem
+    public static Actions builder = null;
+    public static WebDriverWait wait = null ;
     public String browserstack_username= "amenachowdhury1";
     public String browserstack_accesskey = "wzEcm3q4dt9UXtx8D7s5";
     public String saucelabs_username = "";
@@ -301,6 +301,7 @@ public class CommonAPI {
             }
         }
     }
+
     public void typeOnInputField2(String locator, String value){
         try {
             driver.findElement(By.cssSelector(locator)).sendKeys(value);
@@ -311,18 +312,22 @@ public class CommonAPI {
     public void clickByXpath(String locator) {
         driver.findElement(By.xpath(locator)).click();
     }
+
     public void typeByCss(String locator, String value) {
         driver.findElement(By.cssSelector(locator)).sendKeys(value);
     }
     public void typeByCssNEnter(String locator, String value) {
         driver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
     }
+
     public void typeByXpath(String locator, String value) {
         driver.findElement(By.xpath(locator)).sendKeys(value);
     }
+
     public void takeEnterKeys(String locator) {
         driver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
     }
+
     public void clearInputField(String locator){
         driver.findElement(By.cssSelector(locator)).clear();
     }
@@ -339,6 +344,7 @@ public class CommonAPI {
             String st = web.getText();
             text.add(st);
         }
+
         return text;
     }
     public List<WebElement> getListOfWebElementsByCss(String locator) {
@@ -358,6 +364,7 @@ public class CommonAPI {
     public void navigateForward(){
         driver.navigate().forward();
     }
+
     public String getTextByCss(String locator){
         String st = driver.findElement(By.cssSelector(locator)).getText();
         return st;
@@ -373,6 +380,7 @@ public class CommonAPI {
         String st = driver.findElement(By.name(locator)).getText();
         return st;
     }
+
     public List<String> getListOfString(List<WebElement> list) {
         List<String> items = new ArrayList<String>();
         for (WebElement element : list) {
@@ -425,10 +433,12 @@ public class CommonAPI {
     public void goBackToHomeWindow(){
         driver.switchTo().defaultContent();
     }
+
     //get Links
     public void getLinks(String locator){
         driver.findElement(By.linkText(locator)).findElement(By.tagName("a")).getText();
     }
+
     //Synchronization
     public void waitUntilClickAble(WebElement locator){ //previously it was By instead of WebElement
         WebDriverWait wait = new WebDriverWait(driver, 10);

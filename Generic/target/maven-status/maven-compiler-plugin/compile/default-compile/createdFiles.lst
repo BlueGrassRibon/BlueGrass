@@ -1,8 +1,10 @@
 dataProviderUtilityWithXlsReader\XlsDataReaderUtil.class
 reporting\ApplicationLog.class
+base\CommonAPI$1.class
 utility\ConnectDB.class
 parser\Student.class
 databases\ConnectToMongoDB.class
+base\CommonAPI.class
 databases\User.class
 dataProviderUtilityWithXlsReader\XlsReader.class
 googleAPIs\GoogleSheetReader.class
