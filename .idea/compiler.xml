@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CitiBank" />
         <module name="Generic" />
+        <module name="PopUpHandling" />
+        <module name="TableAutomation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

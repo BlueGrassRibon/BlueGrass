@@ -10,14 +10,12 @@ import java.util.Iterator;
 
 public class LogInByXls extends BaseUtil {
 
-    @FindBy(xpath = "//a[text()='MyChart']")
-    public static WebElement myChart;
-    @FindBy(xpath = "//form[@id='loginForm']//p[@class='input_treatment']")
-    public static WebElement userName;
-    @FindBy(xpath = "//input[@name='Password']")
+    @FindBy (xpath = "//input[@name='username']")
+    public static WebElement userID;
+    @FindBy(xpath = "//input[@class='form-control']")
     public static WebElement passwordField;
-    @FindBy(xpath = "//form[@id='loginForm']//button[@class='btn btn-large' ]")
-    public static WebElement logInSubmitButton;
+    @FindBy (id = "signInBtn")
+    public static WebElement signOnSubmitButton;
 
     @DataProvider
     public Iterator<Object[]> supplyDataExcel(){
@@ -27,10 +25,9 @@ public class LogInByXls extends BaseUtil {
     }
     public void signInByDataProvider(String email, String password) throws Exception{
         Thread.sleep(3000);
-        myChart.click();
-        userName.sendKeys(email);
+        userID.sendKeys(email);
         passwordField.sendKeys(password);
-        logInSubmitButton.click();
+        signOnSubmitButton.click();
     }
 
 }
