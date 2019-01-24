@@ -10,16 +10,14 @@ import java.util.Iterator;
 
 public class LogInByXls extends CommonAPI {
 
-    @FindBy(xpath = "//*[@id=\"IDToken1\"]")
-    public static WebElement userId;
-    @FindBy(xpath = "//*[@id=\"IDToken2\"]")
+    @FindBy(xpath = "////a[@id='accountLink']")
+    public static WebElement signIn;
+    @FindBy(xpath = "//input[@id='signin-email']")
+    public static WebElement emailAddressOrLogIn;
+    @FindBy(xpath = "//*[@id='signin-password']")
     public static WebElement passwordField;
-
-    @FindBy(xpath = "//*[@id=\"tvloginsignin\"]")
+    @FindBy(xpath = " //*[@id='signin-submit']")
     public static WebElement signInSubmitButton;
-
-    @FindBy(xpath = "//img[@title='Verizon FiOS']")
-    public static WebElement hboFios;
 
     @DataProvider
     public Iterator<Object[]> supplyDataExcel(){
@@ -29,8 +27,8 @@ public class LogInByXls extends CommonAPI {
     }
     public void signInByDataProvider(String email, String password) throws Exception{
         Thread.sleep(3000);
-        userId.click();
-        hboFios.sendKeys(email);
+        signIn.click();
+        emailAddressOrLogIn.sendKeys(email);
         passwordField.sendKeys(password);
         signInSubmitButton.click();
     }

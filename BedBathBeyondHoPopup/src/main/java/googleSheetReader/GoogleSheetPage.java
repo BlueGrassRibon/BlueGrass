@@ -19,17 +19,16 @@ import java.util.List;
 import static base.CommonAPI.driver;
 import static googleSheetReader.GoogleSheetReader.getSheetsService;
 
-public class GoogleSheetPage {
+public class GoogleSheetPage extends CommonAPI {
 
-    @FindBy(xpath = "//li[@class='login_state']")
-    public static WebElement logInKey;
-    @FindBy(xpath = "//input[@name='loginName']")
-    public static WebElement email;
-    @FindBy(xpath = "//input[@name='password']")
-    public static WebElement password;
-    @FindBy(xpath = "//input[@class='btn rounded w100 primary js_loginBtn']")
+    @FindBy(xpath = "//a[@id='accountLink']")
+    public static WebElement signIn;
+    @FindBy(xpath = "//input[@id='signin-email']")
+    public static WebElement emailAddressOrLogIn;
+    @FindBy(xpath = "//*[@id='signin-password']")
+    public static WebElement passwordField;
+    @FindBy(xpath = " //*[@id='signin-submit']")
     public static WebElement signInSubmitButton;
-
 
     public List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) throws IOException {
         // Build a new authorized API client service.
@@ -51,11 +50,11 @@ public class GoogleSheetPage {
 
         for (List row : valueInColumn) {
             Thread.sleep(3000);
-            logInKey.click();
+            signIn.click();
             //email.sendKeys(row.get(0).toString());
-            inputValueInTextBoxByWebElement(email, row.get(0).toString());
+            inputValueInTextBoxByWebElement(emailAddressOrLogIn, row.get(0).toString());
             //password.sendKeys(row.get(1).toString(),Keys.ENTER);
-            inputValueInTextBoxByWebElement(password, row.get(1).toString());
+            inputValueInTextBoxByWebElement(passwordField, row.get(1).toString());
             WebDriverWait wait = new WebDriverWait(driver,3);
             wait.until(ExpectedConditions.elementToBeClickable(signInSubmitButton));
             signInSubmitButton.click();
@@ -68,11 +67,10 @@ public class GoogleSheetPage {
     //checking fileds are taking input or not
     public void loginTest(String emailIn, String pass) throws Exception{
         Thread.sleep(3000);
-        logInKey.click();
-        email.sendKeys(emailIn);
-        password.sendKeys(pass);
+        signIn.click();
+        emailAddressOrLogIn.sendKeys(emailIn);
+        passwordField.sendKeys(pass);
         signInSubmitButton.click();
-
     }
     public void inputValueInTextBoxByWebElement(WebElement webElement, String value){
         webElement.sendKeys(value );

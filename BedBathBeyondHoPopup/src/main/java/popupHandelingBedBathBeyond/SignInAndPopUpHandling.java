@@ -9,11 +9,13 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import reporting.TestLogger;
 
+
+
 public class SignInAndPopUpHandling extends CommonAPI {
 
-    @FindBy(xpath = "//li[@class='Profile-inline_3GIqsT']")
+    @FindBy(xpath = "")
     public static WebElement logInKey;
-    @FindBy(xpath = "//input[@id='signin-email']")
+    @FindBy(xpath = "//a[@id='accountLink']")
     public static WebElement emailAddressOrLogIn;
     @FindBy(xpath = "//*[@id='signin-password']")
     public static WebElement passwordField;

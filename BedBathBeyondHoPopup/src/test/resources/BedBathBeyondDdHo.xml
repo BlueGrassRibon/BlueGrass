@@ -20,5 +20,17 @@
             <class name="testPopupHandelingBedBathBeyond.TestSignInAndPopUpHandling"/>
         </classes>
     </test>
+    <test name="bedbathandbeyond SignIn with googleSheet" enabled="false">
+        <classes>
+            <class name="testGoogleSheetReader.TestGoogleSheetReader"/>
+        </classes>
+    </test>
+    <test name="bedbathandbeyond SignIn with xlsSheet" enabled="true">
+        <classes>
+            <class name="testDataProviderUtilityWithXlsReader.TestLogInByXls"/>
+        </classes>
+    </test>
+
+
 
 </suite>
