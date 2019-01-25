@@ -14,6 +14,7 @@
         <module name="HnM" />
         <module name="mtSinai" />
         <module name="OfficeDepot" />
+        <module name="RestAPI" />
         <module name="TableAutomationS" />
       </profile>
     </annotationProcessing>
@@ -27,6 +28,7 @@
       <module name="HnM" target="1.8" />
       <module name="mtSinai" target="1.8" />
       <module name="OfficeDepot" target="1.8" />
+      <module name="RestAPI" target="1.8" />
       <module name="TableAutomationS" target="1.8" />
     </bytecodeTargetLevel>
   </component>

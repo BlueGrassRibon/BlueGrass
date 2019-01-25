@@ -18,6 +18,7 @@
         <module>Generic</module>
         <module>mtSinai</module>
         <module>TableAutomationS</module>
+        <module>RestAPI</module>
     </modules>
 
     <dependencyManagement>

@@ -5,15 +5,17 @@
 
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
+    <!--<parameter name="cloudEnvName" value="saucelab"/>-->
     <parameter name="os" value="Windows"/>
     <parameter name="os_version" value="10"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="60.0"/>
     <parameter name="url" value="https://www.amazon.com/"/>
 
-    <test name = "Amazon Home" enabled="false">
+    <test name = "Amazon Home" enabled="true">
         <classes>
             <class name="testHomePage.TestMainPage"/>
+        <!--    <class name="testHomePage.TestLetUsHelpYou"/>-->
         </classes>
     </test>
     <test name = "Amazon GoogleSheet" enabled="false">
@@ -26,7 +28,7 @@
             <class name="testDropDown.TestFetchDropDown"/>
         </classes>
     </test>
-    <test name = "Amazon Xls" enabled="true">
+    <test name = "Amazon Xls" enabled="false">
         <classes>
             <class name="testXls.TestXlsReader"/>
         </classes>

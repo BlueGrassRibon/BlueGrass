@@ -1,6 +1,6 @@
 package testDropDown;
 
-import dropdown.FetchDropDown;
+import dropDown.FetchDropDown;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
