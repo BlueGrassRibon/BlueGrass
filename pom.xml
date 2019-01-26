@@ -17,6 +17,7 @@
         <module>CVSPharmacy</module>
         <module>VWRScientific</module>
         <module>Dropdown</module>
+        <module>RestAPI</module>
     </modules>
 
     <dependencyManagement>

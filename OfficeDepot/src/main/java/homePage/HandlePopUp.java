@@ -56,12 +56,5 @@ public class HandlePopUp {
         closePopUpWindow();
         TestLogger.log("Sleep for 2 sec");
         BaseUtil.sleepFor(2);
-
     }
-
-
-
-
-
-
 }

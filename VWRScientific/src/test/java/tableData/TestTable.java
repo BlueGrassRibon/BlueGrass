@@ -14,7 +14,7 @@ public class TestTable extends BaseUtil {
 
     @Test(enabled = false, priority = 1)
     public void readTable(){
-        String table = getTextByCss(".stiboGridTable");
+        String table = getTextByCss("#stiboGridTable");
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         System.out.println(table);
     }
@@ -25,7 +25,7 @@ public class TestTable extends BaseUtil {
         System.out.println(row);
     }
     @Test(enabled = false, priority = 3)
-    public void readCellOfARowOfATable(){
+    public void readCellOfAnyRowOfATable(){
         String cell = getTextByCss("#stiboGridTable tr:nth-child(3) td:nth-child(2)");
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         System.out.println(cell);
