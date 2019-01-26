@@ -2,7 +2,7 @@ package testPage;
 
 import base.BaseUtil;
 import homePage.LendingPage;
-import testPage.TestCreditCardPage;
+import testPage.TestCreditCardsPage;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
@@ -25,7 +25,7 @@ public class TestLendingPage extends LendingPage {
         mouseOverLending();
     }
 
-    @Test
+   /* @Test
     public void testLoansAndLines() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + BaseUtil.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         personalLoansAndLines();
@@ -35,5 +35,6 @@ public class TestLendingPage extends LendingPage {
     public void testMortgage() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + BaseUtil.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         mortgageTab();
-    }
+    }*/
 }
+

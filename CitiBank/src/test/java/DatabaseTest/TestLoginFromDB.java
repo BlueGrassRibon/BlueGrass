@@ -12,13 +12,11 @@ public class TestLoginFromDB extends BaseUtil {
     @BeforeMethod
     public void initialization2(){loginFromDB= PageFactory.initElements(driver,LoginFromDB.class);}
 
-
     @Test
-    public void signUpUsignDtatFromBD() throws Exception {
+    public void signUpUsingDataFromBD() throws Exception {
 
         loginFromDB.signUpFromDataBase();
         LoginFromDB.signOnSubmitButton.click();
-
     }
 }
 

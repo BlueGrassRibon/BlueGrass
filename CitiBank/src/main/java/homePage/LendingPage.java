@@ -36,7 +36,7 @@ public class LendingPage extends BaseUtil {
         loansAndLines.click();
     }
 
-    @FindBy(xpath = "//*[@id=\"lendingLi\"]/div/ul/li[2]")
+  /*  @FindBy(xpath = "//*[@id=\"lendingLi\"]/div/ul/li[2]")
     public static WebElement mortgage;
 
     @FindBy(xpath = "//*[@id=\"cmlink_mortgage_request_callback\"]")
@@ -48,5 +48,5 @@ public class LendingPage extends BaseUtil {
         Thread.sleep(2000);
         mortgage.click();
         buyHome.click();
-    }
+    }*/
 }

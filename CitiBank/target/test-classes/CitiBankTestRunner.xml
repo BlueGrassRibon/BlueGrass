@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="CitiBank Automation Script" parallel="false">
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="falses"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <!--<parameter name="cloudEnvName" value="Saucelabs"/>-->
     <parameter name="os" value="OS X"/>
@@ -9,12 +9,28 @@
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="60.0"/>
     <parameter name="url" value="https://online.citi.com/US/login.do"/>
-    <test name = "CitiBank Home" enabled="false">
+
+    <test name = "CitiBank Home" enabled="true">
         <classes>
             <class name="testPage.TestMainPage"/>
         </classes>
     </test>
-    <test name = "CitiBank Home" enabled="true">
+    <test name = "CitiBank Banking" enabled="false">
+        <classes>
+            <class name="testPage.TestBankingPage"/>
+        </classes>
+    </test>
+    <test name = "CitiBank CreditCards" enabled="false">
+        <classes>
+            <class name="testPage.TestCreditCardsPage"/>
+        </classes>
+    </test>
+    <test name = "CitiBank Lending" enabled="false">
+        <classes>
+            <class name="testPage.TestLendingPage"/>
+        </classes>
+    </test>
+    <test name = "CitiBank Home" enabled="false">
         <classes>
             <class name="testPage.TestDropdown"/>
         </classes>
@@ -39,25 +55,14 @@
             <class name="testDataProviderUtilityWithXlsReader.TestLogInByXls"/>
         </classes>
     </test>
-    <test name = "CitiBank googleSheet reader" enabled="false">
+    <!--<test name = "CitiBank googleSheet reader" enabled="false">
         <classes>
             <class name="testGoogleSheetReader.TestGoogleSheetReader"/>
         </classes>
     </test>
-    <test name = "CitiBank BankingPage" enabled="false">
+    <test name = "CitiBank testLoginFromDB" enabled="false">
         <classes>
-            <class name="testPage.TestBankingPage"/>
+            <class name="DatabaseTest.TestLoginFromDB"/>
         </classes>
-    </test>
-    <test name = "CitiBank CreditCardsPage" enabled="false">
-        <classes>
-            <class name="testPage.TestCreditCardPage"/>
-        </classes>
-    </test>
-    <test name = "CitiBank LendingPage" enabled="false">
-        <classes>
-            <class name="testPage.TestLendingPage"/>
-        </classes>
-    </test>
-
+    </test>-->
 </suite>

@@ -9,6 +9,7 @@
         <module name="CitiBank" />
         <module name="Generic" />
         <module name="PopUpHandling" />
+        <module name="RestAPI" />
         <module name="TableAutomation" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="MountSinaiTofael" target="1.8" />
       <module name="mtSinai" target="1.8" />
       <module name="OfficeDepot" target="1.8" />
+      <module name="RestAPI" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
