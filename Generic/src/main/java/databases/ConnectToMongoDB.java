@@ -30,7 +30,7 @@ public class ConnectToMongoDB {
         String profile = user.getStName();
         MongoDatabase mongoDatabase = connectToMongoDB();
         MongoCollection<Document> collection = mongoDatabase.getCollection("profile");
-        Document document = new Document().append("stName",user.getStName()).append("stID", user.getStID()).
+        Document document = new Document().append("Shafi Chowdhury",user.getStName()).append("6610", user.getStID()).
                 append("stDOB",user.getStDOB());
         collection.insertOne(document);
         return profile + " has been registered";
@@ -46,8 +46,8 @@ public class ConnectToMongoDB {
         }
         for(int i=0; i<student.size(); i++){
             MongoCollection<Document> collection = mongoDatabase.getCollection(profileName);
-            Document document = new Document().append("firstName", student.get(i).getFirstName()).append("lastName",
-                    student.get(i).getLastName()).append("score",student.get(i).getScore()).append("id", student.get(i).getId());
+            Document document = new Document().append("Shafi", student.get(i).getFirstName()).append("Chowdhury",
+                    student.get(i).getLastName()).append("score",student.get(i).getScore()).append("6610", student.get(i).getId());
             collection.insertOne(document);
         }
         return  "Student has been registered";
@@ -61,11 +61,11 @@ public class ConnectToMongoDB {
         BasicDBObject basicDBObject = new BasicDBObject();
         FindIterable<Document> iterable = collection.find(basicDBObject);
         for(Document doc:iterable){
-            String stName = (String)doc.get("stName");
+            String stName = (String)doc.get("Shafi Chowdhury");
             user.setStName(stName);
-            String stID = (String)doc.get("stID");
+            String stID = (String)doc.get("6610");
             user.setStID(stID);
-            String stDOB = (String)doc.get("stDOB");
+            String stDOB = (String)doc.get("09-1968");
             user.setStID(stDOB);
             user = new User(stName,stID,stDOB);
             list.add(user);
@@ -81,13 +81,13 @@ public class ConnectToMongoDB {
         BasicDBObject basicDBObject = new BasicDBObject();
         FindIterable<Document> iterable = collection.find(basicDBObject);
         for(Document doc:iterable){
-            String firstName = (String)doc.get("firstName");
+            String firstName = (String)doc.get("Shafi");
             student.setFirstName(firstName);
-            String lastName = (String)doc.get("lastName");
+            String lastName = (String)doc.get("Chowdhury");
             student.setLastName(lastName);
             String score = (String)doc.get("score");
             student.setScore(score);
-            String id = (String) doc.get("id");
+            String id = (String) doc.get("6110");
             student.setId(id);
             student = new Student(student.getFirstName(),student.getLastName(),student.getScore(),student.getId());
             list.add(student);
@@ -96,7 +96,7 @@ public class ConnectToMongoDB {
     }
 
     public static void main(String[] args){
-        insertIntoToMongoDB(new User("Naomi Chan", "4493","07-1996"));
+        insertIntoToMongoDB(new User("Shafi Chowdhury", "6610","09-1968"));
         List<User> user = readUserProfileFromMongoDB();
         for(User person:user){
             System.out.println(person.getStName()+ " "+ person.getStID());

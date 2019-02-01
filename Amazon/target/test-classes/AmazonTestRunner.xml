@@ -12,10 +12,11 @@
     <parameter name="browserVersion" value="60.0"/>
     <parameter name="url" value="https://www.amazon.com/"/>
 
-    <test name = "Amazon Home" enabled="true">
+    <test name = "testHomePage" enabled="true">
         <classes>
-            <class name="testHomePage.TestMainPage"/>
-        <!--    <class name="testHomePage.TestLetUsHelpYou"/>-->
+        <!--    <class name="testHomePage.TestAmazonAssociates"/>-->
+           <class name="testHomePage.TestMainPage"/>
+        <!--   <class name="testHomePage.TestLetUsHelpYou"/>-->
         </classes>
     </test>
     <test name = "Amazon GoogleSheet" enabled="false">
