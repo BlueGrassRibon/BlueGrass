@@ -8,6 +8,9 @@ import static io.restassured.RestAssured.given;
 
 public class AllEmployeeRestServices {
 
+    //https://newsapi.org/v2/top-headlines?sources=cnn&apiKey=a104f9105b384c15b810feafd3fa56be
+
+
     @Test
     public void callAllEmployeeResources(){
         Response response = given().when().get("http://info.venturepulse.org:8080/service-webapp/api/AllEmployeeResources").then().statusCode(200).extract().response();

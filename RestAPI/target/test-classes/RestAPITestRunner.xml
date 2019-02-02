@@ -13,8 +13,8 @@
 
     <test name = "Employee Information Services">
         <classes>
-            <class name="rest.SingleEmployeeResource"/>
-            <class name="rest.AllEmployeeRestServices"/>
+            <class name="testRestAPI.SingleEmployeeResource"/>
+            <class name="testRestAPI.AllEmployeeRestServices"/>
         </classes>
     </test>
 

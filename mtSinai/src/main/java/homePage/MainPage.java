@@ -147,7 +147,7 @@ public class MainPage extends BaseUtil {
     public static WebElement findADoctor3;
     @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[text()='Patient Representatives Offices']")
     public static WebElement patientRepresentativesOffices;
-    @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[text()='Language & Accessibility Contacts']")
+    @FindBy(xpath = "//a[text()='Language and Accessibility']")
     public static WebElement languageAndAccessibilityContacts;
     @FindBy(xpath = "//div[@class='nav col-xs-12 col-sm-4']//a[text()='Health Library']")
     public static WebElement healthLibrary;
@@ -185,9 +185,9 @@ public class MainPage extends BaseUtil {
     public static WebElement selectUrgentCareOrWalkIn ;
     @FindBy(xpath = "//div[@class='select hospitals']//option[text()='Choose a location']")
     public static WebElement chooseAHospitalLocation ;
-    @FindBy(xpath = "//div[@class='select urgent-care']") //test failed
+    @FindBy(xpath = "//div[@class='col-xs-12 col-sm-4 pull-right']//div[@class='select urgent-care']")
     public static WebElement chooseAUrgentCareLocation ;
-    @FindBy(xpath = "//div[@class='copywrite']") //test failed
+    @FindBy(xpath = "//div[contains(text(),'Icahn School of Medicine at Mount Sinai') and @class='copyright']")
     public static WebElement copyright ;
 
     public void checkLogo() {

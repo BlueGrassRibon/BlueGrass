@@ -44,7 +44,7 @@
             <class name="testGoogleSheetReader.TestGoogleSheetReader"/>
         </classes>
     </test>
-    <test name="MountSinai SignIn with xlsSheet" enabled="true">
+    <test name="MountSinai SignIn with xlsSheet" enabled="false">
         <classes>
             <class name="testDataProviderUtilityWithXlsReader.TestLogInByXls"/>
         </classes>

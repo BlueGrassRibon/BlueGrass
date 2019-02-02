@@ -54,6 +54,8 @@ public class SingleEmployeeResource {
         Response response = request.put("http://info.venturepulse.org:8080/service-webapp/api/SingleEmployeeResources/5c4be63e2fc21350f886bdd6");
         System.out.println(jsonObject);
     }
+    //https://newsapi.org/v2/top-headlines?sources=cnn&apiKey=a104f9105b384c15b810feafd3fa56be
+    //https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22
     @Test
     public void getInfo() {
         Response response = given().when().get("http://info.venturepulse.org:8080/service-webapp/api/SingleEmployeeResources/5c4be63e2fc21350f886bdd6").then().statusCode(200).extract().response();

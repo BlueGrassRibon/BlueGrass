@@ -75,6 +75,8 @@ public class HoverOver extends BaseUtil {
             expectedList.add("Financial Assistance");
             expectedList.add("LGBT Health");
             expectedList.add("Insurance Information");
+            expectedList.add("Language Services and Accessibility");
+            expectedList.add("Medical Records");
             Assert.assertEquals(stringList,expectedList);
             return stringList;
     }

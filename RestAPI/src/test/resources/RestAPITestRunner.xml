@@ -11,10 +11,10 @@
     <parameter name="browserVersion" value="66.0.3359.139"/>
     <parameter name="url" value="https://www.piit.us"/>
 
-    <test name = "Employee Information Services">
+    <test name = "Employee Information Services" enabled="false">
         <classes>
-            <class name="rest.SingleEmployeeResource"/>
-            <class name="rest.AllEmployeeRestServices"/>
+            <class name="testRestAPI.SingleEmployeeResource"/>
+            <class name="testRestAPI.AllEmployeeRestServices"/>
         </classes>
     </test>
 
