@@ -1,6 +1,6 @@
-package DatabaseTest;
+package databaseTest;
 
-import DataBaseLoin.LoginFromDB;
+import dataBaseLoin.LoginFromDB;
 import base.BaseUtil;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;

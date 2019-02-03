@@ -13,7 +13,7 @@
         <module>Generic</module>
         <module>TableAutomation</module>
         <module>PopUpHandling</module>
-        <module>API</module>
+        <module>RestAPI</module>
     </modules>
     <dependencyManagement>
         <dependencies>

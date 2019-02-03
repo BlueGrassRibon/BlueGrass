@@ -62,7 +62,7 @@
     </test>
     <test name = "CitiBank testLoginFromDB" enabled="false">
         <classes>
-            <class name="DatabaseTest.TestLoginFromDB"/>
+            <class name="databaseTest.TestLoginFromDB"/>
         </classes>
     </test>-->
 </suite>

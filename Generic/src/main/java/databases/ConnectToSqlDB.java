@@ -21,7 +21,7 @@ public class ConnectToSqlDB {
 
     public static Properties loadProperties() throws IOException{
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("/Users/shagriakabir/Desktop/tofael/kabir/BlueGrass/CitiBank/secret.properties");
+        InputStream ism = new FileInputStream("/Users/mohammadsharkar/Desktop/tofael/kabir/BlueGrass/CitiBank/secret.properties");
         //Users/mrahman/develop/pnt/Web-Automation-November2018/Generic/src/secret.properties
         prop.load(ism);
         ism.close();

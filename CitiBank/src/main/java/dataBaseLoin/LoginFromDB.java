@@ -1,4 +1,4 @@
-package DataBaseLoin;
+package dataBaseLoin;
 
 import databases.ConnectToSqlDB;
 import org.openqa.selenium.Keys;

@@ -19,6 +19,7 @@ public class TestHoverOver extends HoverOver {
     public void testLending () throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         hoverOver.checkLending();
+
     }
     @Test(enabled = true, priority = 2)
     public void testListOfHoverOver() throws Exception{
