@@ -10,7 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/Hbo/Hbo.iml" filepath="$PROJECT_DIR$/Hbo/Hbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/HnM/HnM.iml" filepath="$PROJECT_DIR$/HnM/HnM.iml" />
       <module fileurl="file://$PROJECT_DIR$/OfficeDepot/OfficeDepot.iml" filepath="$PROJECT_DIR$/OfficeDepot/OfficeDepot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/RestAPI/RestAPI.iml" filepath="$PROJECT_DIR$/RestAPI/RestAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RestAPINew/RestAPINew.iml" filepath="$PROJECT_DIR$/RestAPINew/RestAPINew.iml" />
       <module fileurl="file://$PROJECT_DIR$/TableAutomationS/TableAutomationS.iml" filepath="$PROJECT_DIR$/TableAutomationS/TableAutomationS.iml" />
       <module fileurl="file://$PROJECT_DIR$/mtSinai/mtSinai.iml" filepath="$PROJECT_DIR$/mtSinai/mtSinai.iml" />
     </modules>

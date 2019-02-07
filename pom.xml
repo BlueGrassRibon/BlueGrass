@@ -18,7 +18,7 @@
         <module>Generic</module>
         <module>mtSinai</module>
         <module>TableAutomationS</module>
-        <module>RestAPI</module>
+        <module>RestAPINew</module>
     </modules>
 
     <dependencyManagement>
@@ -123,4 +123,8 @@
             </plugin>
         </plugins>
     </build>
+    <properties>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
+    </properties>
 </project>

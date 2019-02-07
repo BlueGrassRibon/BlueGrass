@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Employee REst API Automation Script " parallel="false">
+<suite name="CitiBank Automation Script" parallel="false">
 
     <!--<parameter name="useCloudEnv" value="false"/>-->
     <!--<parameter name="cloudEnvName" value="browserstack"/>-->
@@ -9,12 +9,11 @@
     <!--<parameter name="os_version" value="Sierra"/>-->
     <!--<parameter name="browserName" value="chrome"/>-->
     <!--<parameter name="browserVersion" value="60.0"/>-->
-    <parameter name="url" value="https://www.piit.us"/>
+    <parameter name="url" value="https://online.citi.com/US/login.do"/>
 
-    <test name = "Employee Information Services">
+    <test name = "CitiBank Home">
         <classes>
-            <class name="rest.SingleEmployeeResources"/>
-            <!--<class name="rest.AllEmployeeRestServices"/>-->
+            <class name="testHomePage.TestMainPage"/>
         </classes>
     </test>
 
